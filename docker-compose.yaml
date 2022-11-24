@@ -1,14 +1,5 @@
 version: '3.1'
 services:
-  app:
-    image: nginx
-    restart: always
-    ports:
-      - 80:80
-      - 443:443
-    volumes:
-      - ./conf.d:/etc/nginx/conf.d
-      - ./html:/etc/nginx/html
   mongodb:
     image: mongo
     volumes:
@@ -16,7 +7,7 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: example
-      MONGO_INITDB_DATABASE: 
+      MONGO_INITDB_DATABASE: test
   spring:
     image: hesuanjiancedian:0.0.1
     command: "--spring.profiles.active=prod"
@@ -24,3 +15,14 @@ services:
       - mongodb
     expose:
       - 8080
+  app:
+    image: nginx
+    restart: always
+    depends_on:
+      - spring
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./conf.d:/etc/nginx/conf.d
+      - ./html:/etc/nginx/html 

@@ -1,0 +1,6659 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : local
+ Source Server Type    : MongoDB
+ Source Server Version : 60000
+ Source Host           : localhost:27017
+ Source Schema         : test
+
+ Target Server Type    : MongoDB
+ Target Server Version : 60000
+ File Encoding         : 65001
+
+ Date: 24/11/2022 17:24:14
+*/
+
+
+// ----------------------------
+// Collection structure for chengdu
+// ----------------------------
+db.getCollection("chengdu").drop();
+db.createCollection("chengdu");
+
+// ----------------------------
+// Documents of chengdu
+// ----------------------------
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eaf4",
+    address: "成都天府新区华阳街道牧华路三段2359号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.489154",
+    longitude: "104.056770",
+    name: "二江寺社区卫生站",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eaf5",
+    address: "成都天府新区华阳街道华阳天府鹤林瑞祥西街336号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.478462",
+    longitude: "104.032988",
+    name: "鹤林社区卫生站",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eaf6",
+    address: "成都天府新区华阳街道香山小区23栋1单元1号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.463604",
+    longitude: "104.087064",
+    name: "香山社区卫生站",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eaf7",
+    address: "成都市天府新区煎茶街道农中街三段8号－10号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.529526",
+    longitude: "104.051546",
+    name: "煎茶茶林村卫生站",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eaf8",
+    address: "天府新区永兴镇红花村2组102号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.353555",
+    longitude: "104.137142",
+    name: "永兴镇红花村卫生站",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eaf9",
+    address: "天府新区永兴镇丹土村2组14号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.337693",
+    longitude: "104.100736",
+    name: "丹土村卫生站",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eafa",
+    address: "天府新区永兴镇大树村2组合江路口广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.390396",
+    longitude: "104.141594",
+    name: "天福社区卫生站",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eafb",
+    address: "天府新区永兴街道双堰村2组",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.315526",
+    longitude: "104.125437",
+    name: "双堰村卫生站",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eafc",
+    address: "天府新区华阳街道天津路东段1016号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.462808",
+    longitude: "104.087472",
+    name: "香山社区党群服务中心停车场",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eafd",
+    address: "天府新区华阳街道麓坊中心对面",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.463296",
+    longitude: "104.056888",
+    name: "迈多运动公园便民采样点1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eafe",
+    address: "天府新区华阳街道麓坊中心对面",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.463296",
+    longitude: "104.056888",
+    name: "迈多运动公园便民采样点2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eaff",
+    address: "天府新区华阳街道富民路四段161-169号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.507012",
+    longitude: "104.069859",
+    name: "红房子医院",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb00",
+    address: "天府新区华阳街道南湖路222号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.496809",
+    longitude: "104.064318",
+    name: "维禾口腔",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb01",
+    address: "天府新区华阳街道牧华路三段2461号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.485998",
+    longitude: "104.057626",
+    name: "天府临里商业体1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb02",
+    address: "天府新区华阳街道牧华路三段2461号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.485998",
+    longitude: "104.057626",
+    name: "天府临里商业体2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb03",
+    address: "天府新区华阳街道南湖大道360号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.491471",
+    longitude: "104.054260",
+    name: "佳兆业1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb04",
+    address: "天府新区华阳街道南湖大道360号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.491471",
+    longitude: "104.054260",
+    name: "佳兆业2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb05",
+    address: "天府新区华阳街道南湖大道360号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.491471",
+    longitude: "104.054260",
+    name: "盖亚诊所",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb06",
+    address: "天府新区华阳街道华阳大道四段洪锦国际",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.505313",
+    longitude: "104.064925",
+    name: "洪锦国际1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb07",
+    address: "天府新区华阳街道华阳大道四段洪锦国际",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.505313",
+    longitude: "104.064925",
+    name: "洪锦国际2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb08",
+    address: "华阳大道76号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.511632",
+    longitude: "104.043331",
+    name: "天府大家诊所",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb09",
+    address: "天府新区华阳街道广都上街135-145号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.504506",
+    longitude: "104.061798",
+    name: "天府新区邓氏骨科医院",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb0a",
+    address: "天府新区华阳街道富民路二段76号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.509460",
+    longitude: "104.061773",
+    name: "天府新区大家医生诊所",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb0b",
+    address: "天府新区华阳街道德正酒店斜对面",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.517906",
+    longitude: "104.058912",
+    name: "伏龙路二段与滨河路四段交叉口",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb0c",
+    address: "天府新区华阳街道新希望大道一段",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.518392",
+    longitude: "104.064681",
+    name: "乐康诊所",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb0d",
+    address: "天府新区华阳街道南湖春天运动广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.486861",
+    longitude: "104.048915",
+    name: "南湖春天运动广场1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb0e",
+    address: "天府新区华阳街道南湖春天运动广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.486861",
+    longitude: "104.048915",
+    name: "南湖春天运动广场2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb0f",
+    address: "天府新区华阳街道祥鹤二街815、817、819号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.507702",
+    longitude: "104.052917",
+    name: "天奕悦邻诊所",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb10",
+    address: "天府新区华阳街道祥鹤二街202号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.507702",
+    longitude: "104.052917",
+    name: "同步口腔启航门诊部",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb11",
+    address: "天府新区华阳街道钟灵路116号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.507702",
+    longitude: "104.052917",
+    name: "华创北辰口腔门诊部",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb12",
+    address: "天府新区华阳街道祥鹤一街107号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.483347",
+    longitude: "104.037099",
+    name: "艾尚雅口腔诊所",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb13",
+    address: "天府新区华阳街道安公廉洁文化广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.520291",
+    longitude: "104.054961",
+    name: "廉洁文化广场1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb14",
+    address: "天府新区华阳街道安公廉洁文化广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.520291",
+    longitude: "104.054961",
+    name: "廉洁文化广场2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb15",
+    address: "天府新区华阳街道富民路一段21号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.515698",
+    longitude: "104.052800",
+    name: "君阳诊所",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb16",
+    address: "天府新区华阳街道安公路三段与正北中街交叉口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.511959",
+    longitude: "104.060477",
+    name: "安公碑广场1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb17",
+    address: "天府新区华阳街道安公路三段与正北中街交叉口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.511959",
+    longitude: "104.060477",
+    name: "安公碑广场2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb18",
+    address: "天府新区华阳街道香沙路79号附4号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.475890",
+    longitude: "104.074294",
+    name: "沙河乐邻物业服务指导中心",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb19",
+    address: "天府新区华阳街道麓山大道630号洛森堡映山小区外",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.483340",
+    longitude: "104.080315",
+    name: "洛森堡奔马广场1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb1a",
+    address: "天府新区华阳街道麓山大道630号洛森堡映山小区外",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.483340",
+    longitude: "104.080315",
+    name: "洛森堡奔马广场2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb1b",
+    address: "天府新区华阳街道缤纷广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.505227",
+    longitude: "104.053351",
+    name: "缤纷广场1",
+    status: "正常",
+    time: "16:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb1c",
+    address: "天府新区华阳街道缤纷广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.505227",
+    longitude: "104.053351",
+    name: "缤纷广场2",
+    status: "正常",
+    time: "16:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb1d",
+    address: "天府新区华阳街道通济桥巷26号（河边）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.505708",
+    longitude: "104.049096",
+    name: "宝石花医院绿码采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb1e",
+    address: "天府新区华阳街道保利锦江里",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.530755",
+    longitude: "104.063155",
+    name: "朗玉口腔",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb1f",
+    address: "天府新区华阳街道伏龙小区",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.531492",
+    longitude: "104.054544",
+    name: "伏龙小区1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb20",
+    address: "天府新区华阳街道伏龙小区",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.531492",
+    longitude: "104.054544",
+    name: "伏龙小区2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb21",
+    address: "天府新区华阳街道伏龙小区",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.531492",
+    longitude: "104.054544",
+    name: "伏龙小区3",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb22",
+    address: "天府新区华阳街道伏龙小区",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.531492",
+    longitude: "104.054544",
+    name: "伏龙小区4",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb23",
+    address: "天府新区华阳街道海洋公园恒温游泳馆前空地",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.520608",
+    longitude: "103.994099",
+    name: "菁蓉大厦广场1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb24",
+    address: "天府新区华阳街道海洋公园恒温游泳馆前空地",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.520608",
+    longitude: "103.994099",
+    name: "菁蓉大厦广场2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb25",
+    address: "天府新区华阳街道海昌路278号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.490595",
+    longitude: "104.079862",
+    name: "翰林口腔",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb26",
+    address: "天府新区华阳街道祥鹤三街三街398号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.478559",
+    longitude: "104.035469",
+    name: "中海环宇坊1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb27",
+    address: "天府新区华阳街道祥鹤三街三街398号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.478559",
+    longitude: "104.035469",
+    name: "中海环宇坊2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb28",
+    address: "天府新区华阳街道瑞祥西街786、788号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.473801",
+    longitude: "104.031724",
+    name: "天府新区孙氏博康诊所",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb29",
+    address: "天府新区华阳街道祥鹤四街418号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.476441",
+    longitude: "104.036487",
+    name: "天府新区贝特康口腔门诊",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb2a",
+    address: "天府新区华阳街道滨河路一段227号对面双华桥下",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.512037",
+    longitude: "104.050710",
+    name: "双华桥1",
+    status: "正常",
+    time: "16:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb2b",
+    address: "天府新区华阳街道滨河路一段227号对面双华桥下",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.512037",
+    longitude: "104.050710",
+    name: "双华桥2",
+    status: "正常",
+    time: "16:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb2c",
+    address: "天府新区华阳街道河池路168号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.515566",
+    longitude: "104.046118",
+    name: "言午玉洁口腔",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb2d",
+    address: "天府新区华阳街道华阳大道一段 61号 63号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.511744",
+    longitude: "104.042991",
+    name: "杏林百草中医诊所",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb2e",
+    address: "天府新区华阳街道地铁五号线警官学院站C2出口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.514283",
+    longitude: "104.040510",
+    name: "金华一号广场",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb2f",
+    address: "天府新区华阳街道华府大道一段1号蓝润置地广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.526374",
+    longitude: "104.068385",
+    name: "蓝润置地广场",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb30",
+    address: "天府新区华阳街道龙灯山路一段307-309号华美牙科门口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.510275",
+    longitude: "104.068562",
+    name: "华美牙科",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb31",
+    address: "天府新区华阳街道正北下街168号 御景台小区门口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.516881",
+    longitude: "104.068666",
+    name: "倍悦家口腔",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb32",
+    address: "天府新区华阳街道红星美凯龙",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.507702",
+    longitude: "104.052917",
+    name: "红星美凯龙采样点",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb33",
+    address: "天府新区华阳街道复地御香山74-3-5",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.473016",
+    longitude: "104.066957",
+    name: "同步口腔",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb34",
+    address: "天府新区华阳街道恒大二期小区",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.558450",
+    longitude: "104.084487",
+    name: "恒大二期小区1",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb35",
+    address: "天府新区华阳街道恒大二期小区",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.558450",
+    longitude: "104.084487",
+    name: "恒大二期小区2",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb36",
+    address: "天府新区华阳街道戛纳湾广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.521347",
+    longitude: "104.050994",
+    name: "四川天府新区人民医院采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb37",
+    address: "天府新区华阳街道南湖西路253号（地铁五好号线C口步行420米）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.498331",
+    longitude: "104.039853",
+    name: "华阳地铁五号线二江寺站附近便民采样点",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb38",
+    address: "天府新区籍田街道成自泸大林收费站R2出口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.378453",
+    longitude: "103.963838",
+    name: "天府新区成自泸大林收费站R2出口采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb39",
+    address: "天府新区籍田街道地平新家园190栋103号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.332854",
+    longitude: "104.042442",
+    name: "地平村卫生站",
+    status: "正常",
+    time: "8:30-12:00；14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb3a",
+    address: "天府新区籍田街道红阳村一组222号2栋1单元1楼1号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.289914",
+    longitude: "104.029761",
+    name: "红阳村卫生室",
+    status: "正常",
+    time: "8:30-12:00；14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb3b",
+    address: "天府新区籍田街道合力村2组70号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.281071",
+    longitude: "104.085979",
+    name: "合力村卫生室",
+    status: "正常",
+    time: "8:30-12:00；14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb3c",
+    address: "成都天府新区大林镇石庙村7组66号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.290715",
+    longitude: "104.079635",
+    name: "石庙村卫生室",
+    status: "正常",
+    time: "9:00-11:00；\n16:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb3d",
+    address: "成都天府新区大林镇槐花村1组301号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.304676",
+    longitude: "104.094776",
+    name: "槐花村卫生室",
+    status: "正常",
+    time: "9:00-11:00；\n16:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb3e",
+    address: "成都天府新区大林街道水池街55-59号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.252498",
+    longitude: "104.113676",
+    name: "小堰沟村卫生室",
+    status: "正常",
+    time: "9:00-11:00；\n16:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb3f",
+    address: "天府新区籍田街道202、204、206、208、210、212、214号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.307317",
+    longitude: "104.024579",
+    name: "希华医院",
+    status: "正常",
+    time: "8:30-11：40\n14:00-17：30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb40",
+    address: "天府新区煎茶街道二绕科学城站R2出口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.345677",
+    longitude: "104.094866",
+    name: "天府新区二绕科学城站R2出口采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb41",
+    address: "天府新区煎茶街道刘公场镇农中街3段8号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.529526",
+    longitude: "104.051546",
+    name: "天府新区煎茶街道茶林村卫生站",
+    status: "正常",
+    time: "9：00-11:30；"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb42",
+    address: "天府新区天府大道南二段3966号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.531340",
+    longitude: "104.071334",
+    name: "四川大学华西天府医院",
+    status: "正常",
+    time: "8:30-12:00 ；13:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb43",
+    address: "天府新区二绕煎茶收费站R2出口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.378453",
+    longitude: "103.963838",
+    name: "天府新区二绕煎茶收费站R2出口采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb44",
+    address: "天府新区二绕天府新区站南R2出口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.567803",
+    longitude: "103.955153",
+    name: "天府新区二绕天府新区站南R2出口采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb45",
+    address: "天府新区二绕天府新区站北R2出口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.567803",
+    longitude: "103.955153",
+    name: "天府新区二绕天府新区站北R2出口采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb46",
+    address: "天府新区万安街道万东路118号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.487729",
+    longitude: "104.098064",
+    name: "中丝园1",
+    status: "正常",
+    time: "9：00-12:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb47",
+    address: "天府新区万安街道万东路118号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.487729",
+    longitude: "104.098064",
+    name: "中丝园2",
+    status: "正常",
+    time: "9：00-12:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb48",
+    address: "天府新区万安街道万东北二路12号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.501618",
+    longitude: "104.076809",
+    name: "正其诊所",
+    status: "正常",
+    time: "09:00一12:00；\n14:00一18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb49",
+    address: "天府新区万安街道万东路80号附254号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.489621",
+    longitude: "104.084309",
+    name: "盖亚诊所",
+    status: "正常",
+    time: "09:00一12:00；\n14:00一18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb4a",
+    address: "天府新区万安街道麓山大道二段19号附7号4栋1层7号2楼",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.474609",
+    longitude: "104.138695",
+    name: "巴蜀利亚诊所",
+    status: "正常",
+    time: "周一至周六：14：00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb4b",
+    address: "天府新区万安街道雅悦路999号（正熙酒店旁）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.480293",
+    longitude: "104.137073",
+    name: "篮球场1",
+    status: "正常",
+    time: "9：00-12:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb4c",
+    address: "天府新区万安街道雅悦路999号（正熙酒店旁）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.480293",
+    longitude: "104.137073",
+    name: "篮球场2",
+    status: "正常",
+    time: "9：00-12:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb4d",
+    address: "天府新区万安街道麓岭汇综合体（白麓幼儿园旁）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.482036",
+    longitude: "104.114213",
+    name: "石桥村便民核酸采样点",
+    status: "正常",
+    time: "09:00一12:30；"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb4e",
+    address: "天府新区万安街道韩婆岭1组201号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.531540",
+    longitude: "104.138831",
+    name: "韩婆岭1组（原万福酒厂）",
+    status: "正常",
+    time: "9:00-12：:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb4f",
+    address: "天府新区万安街道双泉村2组201号（货运站流动）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.498963",
+    longitude: "104.125838",
+    name: "双泉村村委会广场",
+    status: "正常",
+    time: "09:00一12:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb50",
+    address: "天府新区万安街道启元三街318号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.472480",
+    longitude: "104.106823",
+    name: "枫丹铂麓便民核酸采样点1",
+    status: "正常",
+    time: "09:00一12:30；"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb51",
+    address: "天府新区万安街道启元三街318号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.472480",
+    longitude: "104.106823",
+    name: "枫丹铂麓便民核酸采样点2",
+    status: "正常",
+    time: "09:00一12:30；"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb52",
+    address: "天府新区万安街道宁安东路188号红豆家园小区北门",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.498850",
+    longitude: "104.059303",
+    name: "四川天府新区万安高饭店村卫生站",
+    status: "正常",
+    time: "09:00一12:00；\n14:00一17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb53",
+    address: "天府新区万安街道宁安西一路1365号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.602207",
+    longitude: "104.072141",
+    name: "保利天空之城便民核酸采样点1",
+    status: "正常",
+    time: "9：00-12:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb54",
+    address: "天府新区万安街道宁安西一路1365号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.602207",
+    longitude: "104.072141",
+    name: "保利天空之城便民核酸采样点2",
+    status: "正常",
+    time: "9：00-12:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb55",
+    address: "天府新区万安街道宁安西一路1365号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.602207",
+    longitude: "104.072141",
+    name: "保利天空之城便民核酸采样点3",
+    status: "正常",
+    time: "9：00-12:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb56",
+    address: "天府新区万安街道宁安西一路1365号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.602207",
+    longitude: "104.072141",
+    name: "保利天空之城便民核酸采样点4",
+    status: "正常",
+    time: "9：00-12:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb57",
+    address: "天府新区新兴街道机场高速新兴收费站R2出口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.378453",
+    longitude: "103.963838",
+    name: "天府新区机场高速新兴收费站R2出口采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb58",
+    address: "新兴街道茅香村1组200号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.458393",
+    longitude: "104.191544",
+    name: "新兴街道茅香村卫生站",
+    status: "正常",
+    time: "8:30-12:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb59",
+    address: "新兴街道凉水村4组310号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.534333",
+    longitude: "104.142707",
+    name: "新兴街道凉水村村委会",
+    status: "正常",
+    time: "8:30-12：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb5a",
+    address: "新兴街道庙山社区文明巷1号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.560779",
+    longitude: "104.141222",
+    name: "新兴街道庙山广场1",
+    status: "正常",
+    time: "8:30-11:30；14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb5b",
+    address: "新兴街道庙山社区文明巷1号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.560779",
+    longitude: "104.141222",
+    name: "新兴街道庙山广场2",
+    status: "正常",
+    time: "8:30-11:30；14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb5c",
+    address: "新兴街道天工大道999号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.526163",
+    longitude: "104.175747",
+    name: "新兴街道天科广场1",
+    status: "正常",
+    time: "8:30-12:00；14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb5d",
+    address: "新兴街道天工大道999号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.526163",
+    longitude: "104.175747",
+    name: "新兴街道天科广场2",
+    status: "正常",
+    time: "8:30-12:00；14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb5e",
+    address: "天府新区兴隆街道成自泸兴隆收费站R2出口",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.550466",
+    longitude: "104.089682",
+    name: "天府新区成自泸兴隆收费站R2出口采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb5f",
+    address: "天府新区兴隆街道创意路盟升科创中心南大门广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.562583",
+    longitude: "103.919629",
+    name: "创意路核酸检测临时采样点1",
+    status: "正常",
+    time: "08:30一11:00；14:30—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb60",
+    address: "天府新区兴隆街道创意路盟升科创中心南大门广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.562583",
+    longitude: "103.919629",
+    name: "创意路核酸检测临时采样点2",
+    status: "正常",
+    time: "08:30一11:00；14:30—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb61",
+    address: "天府新区兴隆街道天府万科云城3期1号楼（尔家雅寓北测）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.386372",
+    longitude: "104.086555",
+    name: "中交悦湖核酸检测采样点1",
+    status: "正常",
+    time: "08:30一11:00；14:30—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb62",
+    address: "天府新区兴隆街道天府万科云城3期1号楼（尔家雅寓北测）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.386372",
+    longitude: "104.086555",
+    name: "中交悦湖核酸检测采样点2",
+    status: "正常",
+    time: "08:30一11:00；14:30—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb63",
+    address: "天府新区兴隆街道犀牛山南三街61号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.573599",
+    longitude: "103.981943",
+    name: "三根松便民核酸检测采样点1",
+    status: "正常",
+    time: "08:30一11:00；14:30—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb64",
+    address: "天府新区兴隆街道犀牛山南三街61号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.573599",
+    longitude: "103.981943",
+    name: "三根松便民核酸检测采样点2",
+    status: "正常",
+    time: "08:30一11:00；14:30—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb65",
+    address: "天府新区兴隆街道菁蓉路70号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.405081",
+    longitude: "104.080134",
+    name: "华西二院健康管理中心",
+    status: "正常",
+    time: "08:30一11:30 ； 13:30一16:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb66",
+    address: "天府新区兴隆街道保水南一街153号（保水逸苑F区）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.418121",
+    longitude: "104.101293",
+    name: "天府新区鹿溪汇医疗服务中心",
+    status: "正常",
+    time: "08:30一12:00 ； 14:30一19:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb67",
+    address: "天府新区兴隆街道鹿溪雅韵瓦窑街567号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.418034",
+    longitude: "104.111585",
+    name: "四川天府新区兴隆镇罗家店村卫生站",
+    status: "正常",
+    time: "08:30一12:00；14:30一18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb68",
+    address: "天府新区兴隆街道斑保路207号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.437583",
+    longitude: "104.135140",
+    name: "四川天府新区兴隆刘家坝村卫生站",
+    status: "正常",
+    time: "08:30一12:00 ；14:30一18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb69",
+    address: "天府新区兴隆街道瓦窑北一街450、452号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.413385",
+    longitude: "104.106943",
+    name: "天府新区利汇康诊所",
+    status: "正常",
+    time: "08:30一12:00 ；14:30一18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb6a",
+    address: "天府新区兴隆街道梦溪东一街80号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.306604",
+    longitude: "104.025120",
+    name: "聚福堂诊所",
+    status: "正常",
+    time: "08:30一12:00 ；14:30一18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb6b",
+    address: "天府新区兴隆街道科智路644号1-2F",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.398295",
+    longitude: "104.110099",
+    name: "天府新区艾尔迪贝口腔门诊部",
+    status: "正常",
+    time: "08:30一12:00 ；14:30一18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb6c",
+    address: "天府新区兴隆街道科智路798、796、794",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.398295",
+    longitude: "104.110099",
+    name: "鹿溪河畔愿检尽检点1",
+    status: "正常",
+    time: "08:30一11:00 ；14:00—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb6d",
+    address: "天府新区兴隆街道科智路798、796、794",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.398295",
+    longitude: "104.110099",
+    name: "鹿溪河畔愿检尽检点2",
+    status: "正常",
+    time: "08:30一11:00 ；14:00—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb6e",
+    address: "天府新区兴隆街道科智路798、796、794",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.398295",
+    longitude: "104.110099",
+    name: "鹿溪河畔愿检尽检点3",
+    status: "正常",
+    time: "08:30一11:00 ；14:00—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb6f",
+    address: "天府新区兴隆街道天明南一街与蜡梓东街交汇处",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.408043",
+    longitude: "104.124741",
+    name: "农科中心愿检尽检点",
+    status: "正常",
+    time: "08:30一11:00 ；14:00—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb70",
+    address: "天府新区兴隆街道诗驿路27号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.427699",
+    longitude: "104.119007",
+    name: "瓦窑村愿检尽检点",
+    status: "正常",
+    time: "08:30一11:00 ；14:00—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb71",
+    address: "天府新区永兴街道干塘村篁筱小区1号40栋2号（干塘村村卫生室）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.356457",
+    longitude: "104.148608",
+    name: "干塘村篁筱广场核酸检测点",
+    status: "正常",
+    time: "08:30一11:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb72",
+    address: "天府新区永兴街道南新村12组333号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.312582",
+    longitude: "104.137428",
+    name: "南新村文化广场核酸检测点",
+    status: "正常",
+    time: "08:30一11:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb73",
+    address: "天府新区正兴街道天府公园1号配套用房左侧转角空地",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.437325",
+    longitude: "104.079141",
+    name: "正兴街道天府公园便民核酸采样点",
+    status: "正常",
+    time: "09:00—11:30；14:00-22:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb74",
+    address: "天府新区正兴街道广东街290-292号（军氮厂公交站对面）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.434153",
+    longitude: "104.043071",
+    name: "天府新区正兴益雅口腔诊所",
+    status: "正常",
+    time: "09:00一12:00；14:00一17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb75",
+    address: "天府新区正兴街道潘家湾路995号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.444888",
+    longitude: "104.016359",
+    name: "四川天府新区正兴回龙村卫生站",
+    status: "正常",
+    time: "09:00一12:00；14:00一17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb76",
+    address: "天府新区正兴街道双燕路东段913号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.529526",
+    longitude: "104.051546",
+    name: "天府新区康拓诊所",
+    status: "正常",
+    time: "09:00一12:00；14:00一17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb77",
+    address: "天府新区正兴街道钓鱼嘴村4组366附16号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.422104",
+    longitude: "104.048124",
+    name: "众仁华美口腔诊所",
+    status: "正常",
+    time: "09:00一12:00；14:00一17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb78",
+    address: "天府新区正兴街道官塘村党群服务中心旁",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.403113",
+    longitude: "104.047670",
+    name: "正兴街道官塘村卫生站",
+    status: "正常",
+    time: "09:00一12:00；14:00一17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb79",
+    address: "天府新区正兴街道秦皇寺西街94号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.430987",
+    longitude: "104.051020",
+    name: "正兴街道秦皇寺社区党群服务中心采样点",
+    status: "正常",
+    time: "09:00一12:00；14:00一17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb7a",
+    address: "天府新区太平街道白马村文化广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.461908",
+    longitude: "104.216872",
+    name: "白马村卫生站",
+    status: "正常",
+    time: "09：00—12：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb7b",
+    address: "天府新区太平街道南天寺文化广场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.402698",
+    longitude: "104.150131",
+    name: "南天寺村卫生站",
+    status: "正常",
+    time: "09：00—12：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb7c",
+    address: "天府新区太平街道天灯村村委会",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.382228",
+    longitude: "104.165458",
+    name: "天灯村卫生站",
+    status: "正常",
+    time: "09：00—12：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb7d",
+    address: "天府新区太平街道报恩新居",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.558309",
+    longitude: "104.088594",
+    name: "鹿林村卫生站",
+    status: "正常",
+    time: "09：00—12：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb7e",
+    address: "天府新区太平街道和谐小区",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.434446",
+    longitude: "104.196401",
+    name: "二郎村卫生站",
+    status: "正常",
+    time: "09：00—12：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb7f",
+    address: "场镇社区卫生站",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.819928",
+    longitude: "104.018867",
+    name: "场镇社区卫生站",
+    status: "正常",
+    time: "09：00—12：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb80",
+    address: "天府新区籍田清华村2组130号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.281406",
+    longitude: "104.040070",
+    name: "清华卫生站",
+    status: "正常",
+    time: "周一至周六：09:00-12:00；"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb81",
+    address: "天府新区籍田粮丰村1组53号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.299234",
+    longitude: "104.030476",
+    name: "粮丰卫生站",
+    status: "正常",
+    time: "周一至周六：09:00-12:00；"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb82",
+    address: "天府新区籍田镇红碑村4组200号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.309801",
+    longitude: "104.043058",
+    name: "红碑卫生站",
+    status: "正常",
+    time: "周一至周五：16:00-18:00；"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb83",
+    address: "天府新区籍田镇长征村4组300号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.326016",
+    longitude: "104.022088",
+    name: "长征卫生站",
+    status: "正常",
+    time: "周一至周五：16:00-18:00；"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb84",
+    address: "成都天府新区万安街道滨江和城三期二楼2060号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.488371",
+    longitude: "104.084397",
+    name: "成都天府新区诺贝德口腔",
+    status: "正常",
+    time: "09:00-20:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb85",
+    address: "天府新区华阳大道一段72号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.511368",
+    longitude: "104.044119",
+    name: "和华口腔",
+    status: "正常",
+    time: "周一至周五：9:00-20:00；周六至周天：9:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb86",
+    address: "天府新区华阳下河坝街43号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.503216",
+    longitude: "104.055586",
+    name: "口腔门诊部",
+    status: "正常",
+    time: "8:30-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb87",
+    address: "华阳街道通济桥街34号36号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.505847",
+    longitude: "104.048677",
+    name: "成都天府新区安德仁中医诊所",
+    status: "正常",
+    time: "8：00-19:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb88",
+    address: "天府新区华阳街道富民路二段203号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.508574",
+    longitude: "104.063536",
+    name: "凤宇杰诊所",
+    status: "正常",
+    time: "8：00-18：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb89",
+    address: "天府新区华阳街道祥鹤二街548号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.507702",
+    longitude: "104.052917",
+    name: "润霖诊所",
+    status: "正常",
+    time: "周一至周五：9：00-12：00   14：00-18：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb8a",
+    address: "华府大道一段慕和南道8栋",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.526899",
+    longitude: "104.051323",
+    name: "慕合口腔",
+    status: "正常",
+    time: "8：00-18：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb8b",
+    address: "天府新区华阳湖畔路西段6号C区7栋1层103号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.504376",
+    longitude: "104.070450",
+    name: "阿兰贝尔门诊部",
+    status: "正常",
+    time: "9:00-17:30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb8c",
+    address: "华阳街道华新下街370号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.518814",
+    longitude: "104.055420",
+    name: "锦华口腔",
+    status: "正常",
+    time: "9:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb8d",
+    address: "天府新区新兴街道庙山村新富街389-391号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.560294",
+    longitude: "104.141402",
+    name: "牙圣堂口腔",
+    status: "正常",
+    time: "8:00-19:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb8e",
+    address: "华阳下河坝街43号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.503216",
+    longitude: "104.055586",
+    name: "林氏口腔门诊所",
+    status: "正常",
+    time: "8:30-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb8f",
+    address: "天府新区美岸路三段103号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.488379",
+    longitude: "104.054331",
+    name: "慈旭诊所",
+    status: "正常",
+    time: "8:30-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb90",
+    address: "天府新区华阳海昌路169号18栋1单元1层9号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.493290",
+    longitude: "104.080519",
+    name: "杏名诊所",
+    status: "正常",
+    time: "9：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb91",
+    address: "天府新区华阳滨河路3段1号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.529526",
+    longitude: "104.051546",
+    name: "拉斐尔口腔华阳门诊",
+    status: "正常",
+    time: "9：00-18：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb92",
+    address: "天府新区兴隆天明街110号二楼",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.409529",
+    longitude: "104.126918",
+    name: "安固堂口腔诊所",
+    status: "正常",
+    time: "8：30-17：30"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb93",
+    address: "天府新区华阳街道剑南大道南段901号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.526486",
+    longitude: "104.044934",
+    name: "地铁5号线骑龙站D出口",
+    status: "正常",
+    time: "09:00-12:00；14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb94",
+    address: "天府新区华阳街道南湖世纪对面停车场",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.502515",
+    longitude: "104.043765",
+    name: "华阳卫生服务中心便民采样点",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb95",
+    address: "天府新区籍田街道南街68号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.529526",
+    longitude: "104.051546",
+    name: "籍田中心卫生院籍田院区",
+    status: "正常",
+    time: "8:30-12:00；14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb96",
+    address: "天府新区籍田街道中源路163号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.283102",
+    longitude: "104.118640",
+    name: "籍田中心卫生院大林院区",
+    status: "正常",
+    time: "8:30-12:00；14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb97",
+    address: "天府新区煎茶街道正溪下街96号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.375052",
+    longitude: "104.052468",
+    name: "天府新区煎茶卫生院",
+    status: "正常",
+    time: "8：30-11:30；\n14:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb98",
+    address: "天府新区太平街道庆西门街99号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.433084",
+    longitude: "104.200447",
+    name: "四川天府新区太平中心卫生院",
+    status: "正常",
+    time: "08:30一11:30；\n14:00—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb99",
+    address: "天府新区太平街道莓仙路27号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.390830",
+    longitude: "104.171900",
+    name: "四川天府新区太平中心卫生院合江院区",
+    status: "正常",
+    time: "08:30一11:30；\n14:00—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb9a",
+    address: "天府新区万安街道石桥北街37号（万安中学右侧大石社区停车场）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.489882",
+    longitude: "104.112221",
+    name: "四川天府新区万安社区卫生服务中心",
+    status: "正常",
+    time: "08:30一11:30；\n14:00一20：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb9b",
+    address: "天府新区万安街道政府街259、261、263、265号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.492583",
+    longitude: "104.108846",
+    name: "义欣诊所",
+    status: "正常",
+    time: "周一至周六：09:00一12:00；\n14:00一18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb9c",
+    address: "天府新区万安街道茂业路2317号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.487444",
+    longitude: "104.112703",
+    name: "椿佗诊所",
+    status: "正常",
+    time: "周一至周六：09:00一12:00；\n14:00一17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb9d",
+    address: "新兴街道麓山大道三段254号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.471695",
+    longitude: "104.154064",
+    name: "新兴街道白沙综合文化站",
+    status: "正常",
+    time: "8:30-11:30；14:00-18：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb9e",
+    address: "新兴街道柏杨一期傍中学后门警务室",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.496959",
+    longitude: "104.062703",
+    name: "新兴街道柏杨一期傍中学后门警务室",
+    status: "正常",
+    time: "8:30-11:30；14:00-18：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eb9f",
+    address: "天府新区兴隆街道梦溪东一街363号（梦溪东一街和保水南三街交叉路口）",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.306879",
+    longitude: "104.023559",
+    name: "四川天府新区兴隆社区卫生服务中心",
+    status: "正常",
+    time: "08:30一11:00；14:30—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eba0",
+    address: "天府新区永兴街道永兴场社区黄金桥街138号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.353518",
+    longitude: "104.150081",
+    name: "永兴卫生院核酸检测点",
+    status: "正常",
+    time: "08:30一11:30；14:00—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eba1",
+    address: "天府新区永兴街道三星场社区上街41号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.307636",
+    longitude: "104.152645",
+    name: "永兴卫生院三星院区核酸检测点",
+    status: "正常",
+    time: "08:30一11:30；14:00—18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eba2",
+    address: "天府新区正兴街道大安路519号",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.438265",
+    longitude: "104.049184",
+    name: "四川天府新区正兴社区卫生服务中心",
+    status: "正常",
+    time: "09:00—11:30；14:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e2f8f6024113004eba3",
+    address: "天府新区万安街道麓山大道二段麓镇商业区7区1栋奥亚医院",
+    area: "天府新区",
+    enable: "启用",
+    latitude: "30.481031",
+    longitude: "104.094084",
+    name: "奥亚医院",
+    status: "正常",
+    time: "8：00-11:00，16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004f9f7",
+    address: "锦江区城守东大街12号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.983707",
+    longitude: "103.942849",
+    name: "四川省第四人民医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004f9f8",
+    address: "锦兴路56号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.650949",
+    longitude: "104.071190",
+    name: "锦兴路56号核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004f9f9",
+    address: "东大街上东大街",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.652044",
+    longitude: "104.079823",
+    name: "新中兴广场核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004f9fa",
+    address: "人民南路2段",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.650223",
+    longitude: "104.066040",
+    name: "仁恒置地核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004f9fb",
+    address: "春熙路盐道街社区小广场（红星路6号）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.849936",
+    longitude: "104.428683",
+    name: "锦江区14号盐道街社区小广场点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004f9fc",
+    address: "红星路6号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.872791",
+    longitude: "103.590948",
+    name: "盐道街社区小广场核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004f9fd",
+    address: "人民东路6号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.663326",
+    longitude: "104.073962",
+    name: "SAC东原中心采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004f9fe",
+    address: "锦江区光华街35号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.653710",
+    longitude: "104.068190",
+    name: "盐市口社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004f9ff",
+    address: "青年路8号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.657416",
+    longitude: "104.072665",
+    name: "九龙广场核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa00",
+    address: "春熙路步行街南段1号老凤祥门口",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.876924",
+    longitude: "104.268174",
+    name: "锦江区1号春熙路步行街南卡点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa01",
+    address: "春熙路锦华馆8号总府路社区旁",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.656655",
+    longitude: "104.078609",
+    name: "锦江区24号总府路社区核酸检测点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa02",
+    address: "春熙路西段12号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.655231",
+    longitude: "104.076241",
+    name: "成都口腔医院核酸检测点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa03",
+    address: "东安南路8号对面",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.655035",
+    longitude: "104.088443",
+    name: "翠风苑核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa04",
+    address: "福字街与天涯石南街交叉口锦江区国税局斜对面",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.656714",
+    longitude: "104.085905",
+    name: "锦江区6号福字街88号国税局点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa05",
+    address: "岳府街55号肖邦大厦侧",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.662346",
+    longitude: "104.081390",
+    name: "肖邦大厦核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa06",
+    address: "红星路二段20号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.657973",
+    longitude: "104.081850",
+    name: "美豪核酸采样点位",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa07",
+    address: "锦江区布后街22号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.660555",
+    longitude: "104.081906",
+    name: "春熙社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa08",
+    address: "庆云西街15号5栋1楼15号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.662157",
+    longitude: "104.086105",
+    name: "成都艾鑫堂大药房核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa09",
+    address: "锦江区天涯石北街178号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.659948",
+    longitude: "104.089037",
+    name: "书院街社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa0a",
+    address: "锦江区庆云南街10号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.660574",
+    longitude: "104.087189",
+    name: "成都市第二人民医院",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa0b",
+    address: "东较场122号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.664591",
+    longitude: "104.090554",
+    name: "东较场122号核酸采样点位",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa0c",
+    address: "锦江区昭忠祠街20号附4、5、6号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.666556",
+    longitude: "104.089207",
+    name: "锦江区49号九鼎药房昭忠祠药店核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa0d",
+    address: "三槐树路85号附3-5号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.663801",
+    longitude: "104.087257",
+    name: "锦江区50号何氏新齿口腔门诊部核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa0e",
+    address: "东升街89号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.650241",
+    longitude: "104.077160",
+    name: "锦江区兴华西大药房",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa0f",
+    address: "三圣街66号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.650580",
+    longitude: "104.080344",
+    name: "三圣街66号核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa10",
+    address: "成都市红星路四段199号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.650345",
+    longitude: "104.077001",
+    name: "成都天大不孕不育医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa11",
+    address: "成都市锦江区龙王庙正街46号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.648668",
+    longitude: "104.078357",
+    name: "大慈寺社区卫生服务站",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa12",
+    address: "东顺城南街博舍酒店路口",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.651900",
+    longitude: "104.084841",
+    name: "博舍酒店路口核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa13",
+    address: "下东大街199号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.650181",
+    longitude: "104.084503",
+    name: "睿东中心核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa14",
+    address: "锦江区东顺城南街与油篓街交叉口东南60米",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.651241",
+    longitude: "104.084314",
+    name: "锦江区7号睿东中心小游园广场点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa15",
+    address: "锦江区大慈寺路1号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.653209",
+    longitude: "104.087530",
+    name: "成都画美医疗美容医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa16",
+    address: "成都市红星路三段99号春熙路地铁站A口",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.653389",
+    longitude: "104.080019",
+    name: "锦江区51号银石广场点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa17",
+    address: "锦江区东顺城南街与油篓街交叉口东南60米",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.651241",
+    longitude: "104.084314",
+    name: "锦江区53号睿东中心D座外绿地小广场点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa18",
+    address: "点将台社区美好生活馆牛王庙巷88号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.649075",
+    longitude: "104.091515",
+    name: "美好生活馆核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa19",
+    address: "牛王庙巷66号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.648784",
+    longitude: "104.092427",
+    name: "蓉上坊二期核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa1a",
+    address: "镗钯街1号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.647655",
+    longitude: "104.082214",
+    name: "西金阁4号楼",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa1b",
+    address: "清安街1号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.647227",
+    longitude: "104.083050",
+    name: "清安街1号核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa1c",
+    address: "成都市下东大街258号三号楼",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.648463",
+    longitude: "104.083491",
+    name: "锦江区52号西部国际金融中心点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa1d",
+    address: "成都市锦江区东风路17号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.651787",
+    longitude: "104.091376",
+    name: "四川电力医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa1e",
+    address: "成都市均隆街66-68号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.650910",
+    longitude: "104.088952",
+    name: "成都骨科医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa1f",
+    address: "星桥街70号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.641257",
+    longitude: "104.089897",
+    name: "星桥街70号",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa20",
+    address: "星桥街72号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.641169",
+    longitude: "104.089706",
+    name: "星桥街72号",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa21",
+    address: "东大街芷泉段188号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.647074",
+    longitude: "104.088128",
+    name: "时代豪庭1期",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa22",
+    address: "东大街芷泉段68号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.647757",
+    longitude: "104.087344",
+    name: "锦江区30号紫东康达诊所核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa23",
+    address: "锦江区一环东五段1号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.621023",
+    longitude: "104.094001",
+    name: "锦官驿社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa24",
+    address: "锦江区锦东路555号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.640174",
+    longitude: "104.105190",
+    name: "尖东旺座广场核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa25",
+    address: "锦江区得胜上街76号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.640710",
+    longitude: "104.105288",
+    name: "成都锦江瑞康医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa26",
+    address: "水碾河路16号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.646838",
+    longitude: "104.101740",
+    name: "水碾河路16号门口",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa27",
+    address: "锦东路205号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.643130",
+    longitude: "104.098880",
+    name: "锦东路205号核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa28",
+    address: "锦东路568号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.639982",
+    longitude: "104.104366",
+    name: "摩根中心工商银行核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa29",
+    address: "成都市海椒市横街78号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.638068",
+    longitude: "104.104432",
+    name: "成都锦欣中医医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa2a",
+    address: "宏济新路49号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.640588",
+    longitude: "104.092577",
+    name: "外滩核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa2b",
+    address: "宏济新路298号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.639646",
+    longitude: "104.096240",
+    name: "世纪朝阳核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa2c",
+    address: "工农院街19号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.632230",
+    longitude: "104.096760",
+    name: "工农院街19号核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa2d",
+    address: "锦江区九眼桥顺江路317号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.633146",
+    longitude: "104.095007",
+    name: "西部战区空军医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa2e",
+    address: "海椒市街48号海椒市广场",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.637914",
+    longitude: "104.101341",
+    name: "海椒市街48号核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa2f",
+    address: "牛市口街道莲桂广场（莲花西路88号）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.637400",
+    longitude: "104.096103",
+    name: "锦江区12号莲桂广场点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa30",
+    address: "莲花新区北一巷10号（幸福居）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.632518",
+    longitude: "104.100153",
+    name: "北一巷幸福居核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa31",
+    address: "工农院街107号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.630443",
+    longitude: "104.099682",
+    name: "工农院街107号核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa32",
+    address: "牛市口街道一环路东五段46号天紫界外广场",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.642784",
+    longitude: "104.093373",
+    name: "锦江区8号天紫界外广场点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa33",
+    address: "锦江区水碾河南三街48号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.646945",
+    longitude: "104.098008",
+    name: "牛市口社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa34",
+    address: "锦江区海椒市街4号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.640190",
+    longitude: "104.102685",
+    name: "东方新城核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa35",
+    address: "锦江区海椒市街6号附9号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.639066",
+    longitude: "104.101715",
+    name: "莲新社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa36",
+    address: "二环路东四段262号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.632602",
+    longitude: "104.103057",
+    name: "铜五区核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa37",
+    address: "海椒市街118号天地自由星城",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.635915",
+    longitude: "104.104464",
+    name: "天地自由星城核酸点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa38",
+    address: "萃锦东路与锦华路一段交叉口",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.614211",
+    longitude: "104.098982",
+    name: "沙河小广场",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa39",
+    address: "东光街5号院",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.618259",
+    longitude: "104.101185",
+    name: "东怡社区党群服务中心",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa3a",
+    address: "华润路42号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.612836",
+    longitude: "104.091723",
+    name: "翡翠城社区党群服务中心",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa3b",
+    address: "琉璃路655号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.613462",
+    longitude: "104.094434",
+    name: "翡翠城四期6栋",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa3c",
+    address: "观音桥街56号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.617929",
+    longitude: "104.106807",
+    name: "观音桥社区党群服务中心",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa3d",
+    address: "锦江区东光街11号附19号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.618736",
+    longitude: "104.104049",
+    name: "锦江区27号东光街高济药房核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa3e",
+    address: "龙舟南街62号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.626042",
+    longitude: "104.097125",
+    name: "河滨社区党群服务中心",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa3f",
+    address: "锦江区三官堂街31号附22号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.624821",
+    longitude: "104.095140",
+    name: "锦江区28号唐莉牙科诊所核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa40",
+    address: "锦华路一段68号锦华万达5号门外",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.620411",
+    longitude: "104.096257",
+    name: "锦江区2号锦华万达广场点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa41",
+    address: "琉璃路358号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.615695",
+    longitude: "104.092473",
+    name: "锦华社区党群服务中心",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa42",
+    address: "二环路东五段366号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.621147",
+    longitude: "104.090998",
+    name: "摩玛城",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa43",
+    address: "三官堂街3号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.626024",
+    longitude: "104.093716",
+    name: "成都市锦江区妇幼保健院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa44",
+    address: "净居寺路西街174号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.626127",
+    longitude: "104.099850",
+    name: "永兴社区党群服务中心",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa45",
+    address: "锦华路一段115号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.620551",
+    longitude: "104.099667",
+    name: "龙舟路社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa46",
+    address: "静沙北路旭通桂香居西侧约50米",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.620214",
+    longitude: "104.116142",
+    name: "锦官阁销售中心",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa47",
+    address: "沙河街道泰合国际财富中心",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.636153",
+    longitude: "104.107470",
+    name: "锦江区15号泰合国际财富中心点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa48",
+    address: "东大路318号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.840024",
+    longitude: "103.833308",
+    name: "环球汇广场IMP",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa49",
+    address: "锦江区静秀路66号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.622028",
+    longitude: "104.120006",
+    name: "四川锦欣妇女儿童医院",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa4a",
+    address: "锦江区汇泉南路116号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.627476",
+    longitude: "104.104979",
+    name: "成都神康癫痫医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa4b",
+    address: "锦江区净居寺路18号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.623278",
+    longitude: "104.105181",
+    name: "成都市公共卫生临床医疗中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa4c",
+    address: "牛沙南路3号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.621352",
+    longitude: "104.107936",
+    name: "科源种植大厦美年大健康维康分院",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa4d",
+    address: "马家沟99号正门",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.625881",
+    longitude: "104.113289",
+    name: "望江水岸",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa4e",
+    address: "沙河街道汇源北路333号悦街广场",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.638207",
+    longitude: "104.115619",
+    name: "锦江区3号中粮鸿云悦街点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa4f",
+    address: "锦江区通汇街26号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.636666",
+    longitude: "104.118092",
+    name: "东大社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa50",
+    address: "汇源北路99号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.636525",
+    longitude: "104.112927",
+    name: "天誉花园",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa51",
+    address: "锦江区上沙河铺街96号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.624065",
+    longitude: "104.123223",
+    name: "四川友谊医院",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa52",
+    address: "大凉山路77号3栋底商",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.629800",
+    longitude: "104.120930",
+    name: "恒大望江华府",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa53",
+    address: "牛沙路76号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.627312",
+    longitude: "104.108911",
+    name: "阳光水岸广场",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa54",
+    address: "锦江区通盈街519号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.629716",
+    longitude: "104.109423",
+    name: "双桂路五福社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa55",
+    address: "四川师范大学中心花园",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.610054",
+    longitude: "104.123474",
+    name: "四川师范大学（点位一）",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa56",
+    address: "四川师范大学宿舍一区",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.607560",
+    longitude: "104.120150",
+    name: "四川师范大学（点位二）",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa57",
+    address: "四川师范大学宿舍二区",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.610054",
+    longitude: "104.123474",
+    name: "四川师范大学（点位三）",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa58",
+    address: "四川师范大学家属区",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.613594",
+    longitude: "104.122280",
+    name: "四川师范大学（点位四）",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa59",
+    address: "菱安路华润幸福里一期235号3号附79号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.610100",
+    longitude: "104.118858",
+    name: "爱心诊所",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa5a",
+    address: "锦江区静沙南路3号-5号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.618168",
+    longitude: "104.115594",
+    name: "锦江区48号锦江精诚中医诊所核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa5b",
+    address: "静明路12号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.618967",
+    longitude: "104.127596",
+    name: "静明路12号锦江崇爱诊所",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa5c",
+    address: "锦江区佳宏路29号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.617773",
+    longitude: "104.126481",
+    name: "成都锦欣沙河堡医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa5d",
+    address: "锦江区静平路780号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.612103",
+    longitude: "104.108120",
+    name: "金象寺社区党群服务中心",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa5e",
+    address: "静康路536号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.619821",
+    longitude: "104.124057",
+    name: "四川邮电职业技术学院（点位一学校内）",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa5f",
+    address: "上沙河铺街114号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.622187",
+    longitude: "104.124454",
+    name: "四川邮电职业技术学院（点位二 男生宿舍区）",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa60",
+    address: "锦江区锦绣大道3627号附206号华润凯旋天地",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.611653",
+    longitude: "104.128632",
+    name: "锦江区44号优莱医疗美容门诊部核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa61",
+    address: "锦江区锦绣大道3555号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.615029",
+    longitude: "104.131586",
+    name: "锦江区45号贝尔康大药房核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa62",
+    address: "锦江区劼人路159-177号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.615408",
+    longitude: "104.124895",
+    name: "锦江区狮子山社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa63",
+    address: "锦江区菱安路190号（四川师大D1口）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.614340",
+    longitude: "104.119561",
+    name: "锦江区10号四川师大地铁站点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa64",
+    address: "锦江区静安路5号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.610157",
+    longitude: "104.123078",
+    name: "四川师范大学医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa65",
+    address: "锦江区静安路1号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.613350",
+    longitude: "104.116187",
+    name: "万科城花小区阳光广场",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa66",
+    address: "锦江区花园街70号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.616396",
+    longitude: "104.115045",
+    name: "锦江区46号一心堂药房核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa67",
+    address: "锦江区晨辉北路8号附58号(芙蓉大药房晨辉北路二店)",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.606800",
+    longitude: "104.104046",
+    name: "晨辉社区晨辉北路芙蓉大药房",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa68",
+    address: "锦江区晨辉路60号（正和祥药房晨辉路店）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.611126",
+    longitude: "104.102231",
+    name: "锦江区31号晨辉路正和祥药房核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa69",
+    address: "经天路10号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.600690",
+    longitude: "104.104651",
+    name: "皇经社区常态化核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa6a",
+    address: "锦江区经天路7号附5号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.603343",
+    longitude: "104.105469",
+    name: "锦江区32号蓝悦大药房核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa6b",
+    address: "锦江区经天路2号(锦华路街道皇经社区)",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.602341",
+    longitude: "104.099702",
+    name: "成都东区医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa6c",
+    address: "锦江区仁居路13号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.600462",
+    longitude: "104.100368",
+    name: "成都长峰医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa6d",
+    address: "锦江区经天路33号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.603398",
+    longitude: "104.106073",
+    name: "成都锦江益民医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa6e",
+    address: "锦江区经天路33号附2号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.603513",
+    longitude: "104.105923",
+    name: "成龙路社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa6f",
+    address: "金象花园社区文化活动广场",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.723768",
+    longitude: "104.052027",
+    name: "金象花园社区便民核酸采集点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa70",
+    address: "晨辉东路89号附3号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.607082",
+    longitude: "104.101178",
+    name: "海王星辰药房",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa71",
+    address: "晨辉西路9号1层（康郡）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.607861",
+    longitude: "104.097961",
+    name: "锦江大家晨辉诊所",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa72",
+    address: "锦华路街道晨辉东路与锦华路交汇处（金象花园社区文化活动广场）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.605255",
+    longitude: "104.109570",
+    name: "锦江区9号琉璃场地铁站点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa73",
+    address: "经天西路与经天三街交接处",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.597338",
+    longitude: "104.103151",
+    name: "经天社区常态化核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa74",
+    address: "锦江区翠柳湾路38号凯丽香江生活广场对面",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.598894",
+    longitude: "104.082836",
+    name: "凯天社区常态化核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa75",
+    address: "锦江区柳河路139号天悦龙庭",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.597396",
+    longitude: "104.089550",
+    name: "锦江区33号贝尔康大药房核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa76",
+    address: "锦江区琉璃中街32号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.600611",
+    longitude: "104.096717",
+    name: "琉璃社区常态化核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa77",
+    address: "柳翠路179号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.604880",
+    longitude: "104.091368",
+    name: "柳江社区常态化核酸采样点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa78",
+    address: "锦华路街道府河文体公园（锦江区翠凤路）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.603559",
+    longitude: "104.088350",
+    name: "锦江区13号府河文体公园点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa79",
+    address: "锦江区柳翠路199号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.604891",
+    longitude: "104.090914",
+    name: "锦华路社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa7a",
+    address: "锦华路三段239号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.589202",
+    longitude: "104.094075",
+    name: "明生诊所",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa7b",
+    address: "锦江区金石路地铁6号线金石路站B口（锦江区政务中心）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.650871",
+    longitude: "104.087181",
+    name: "锦江区4号锦江区政务中心点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa7c",
+    address: "锦江区毕昇路66号-88号1栋",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.593692",
+    longitude: "104.094076",
+    name: "成都锦欣爱囝医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa7d",
+    address: "锦江区楠丰路86号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.588846",
+    longitude: "104.098628",
+    name: "锦江区35号城东中西医诊所核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa7e",
+    address: "锦江区锦华路379号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.615066",
+    longitude: "104.099288",
+    name: "锦江区36号福多便民诊所核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa7f",
+    address: "锦江区锦瑞路126号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.591056",
+    longitude: "104.112949",
+    name: "锦江区锦瑞路126号",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa80",
+    address: "锦城逸景c区104号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.592920",
+    longitude: "104.114056",
+    name: "锦城逸景社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa81",
+    address: "皇经楼西路2号附8号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.594517",
+    longitude: "104.106267",
+    name: "格林口腔",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa82",
+    address: "锦江区皇经楼一街66号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.593395",
+    longitude: "104.107493",
+    name: "泰三堂德康医院核酸检测点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa83",
+    address: "大观里26号（水杉社区居委会）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.615319",
+    longitude: "104.137061",
+    name: "水杉社区",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa84",
+    address: "合欢树街与海桐街交叉口旁（紫东梵谷西北1门正对面）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.607569",
+    longitude: "104.136513",
+    name: "大观运动场",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa85",
+    address: "国槐街835号（国槐社区党群服务中心）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.608899",
+    longitude: "104.130465",
+    name: "国槐社区文体广场",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa86",
+    address: "水杉街620号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.608085",
+    longitude: "104.133163",
+    name: "海桐市场旁边",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa87",
+    address: "锦江区合欢树街489号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.605259",
+    longitude: "104.134434",
+    name: "成都锦江大观医院",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa88",
+    address: "合欢树街767号1楼",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.603288",
+    longitude: "104.127119",
+    name: "微笑口腔旁空地",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa89",
+    address: "锦江区水杉街201号蓝谷地商业广场2楼杜克加诊所",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.603897",
+    longitude: "104.126706",
+    name: "锦江区17号杜克加诊所核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa8a",
+    address: "金像寺路360号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.603143",
+    longitude: "104.117422",
+    name: "皇经楼社区",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa8b",
+    address: "皇经楼7号（成都华大医药卫生学校大门旁）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.600529",
+    longitude: "104.111303",
+    name: "皇经楼六、七组",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa8c",
+    address: "锦江区静祥路141号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.599922",
+    longitude: "104.123236",
+    name: "静祥路141号门口",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa8d",
+    address: "棣棠路870号首创娇子一号门口",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.595904",
+    longitude: "104.124597",
+    name: "首创娇子一号",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa8e",
+    address: "静祥路169号华新美庐7栋外商铺",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.599138",
+    longitude: "104.122032",
+    name: "华新美庐",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa8f",
+    address: "枫树街253号8栋",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.598789",
+    longitude: "104.137301",
+    name: "锦江区平康中医医疗诊所",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa90",
+    address: "卓锦公园",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.597692",
+    longitude: "104.136135",
+    name: "卓锦公园",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa91",
+    address: "锦江区枫树街2号（卓锦曼购中心1号门外）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.596129",
+    longitude: "104.136254",
+    name: "锦江区16号卓锦曼购中心点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa92",
+    address: "枫树街618号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.600485",
+    longitude: "104.139392",
+    name: "枫树社区",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa93",
+    address: "牡丹街879号大门对面",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.600968",
+    longitude: "104.136596",
+    name: "锦江逸家小公园",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa94",
+    address: "茶花街与黄葛树街交叉口绿轴公园旁",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.597989",
+    longitude: "104.139037",
+    name: "粮丰顶旁边",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa95",
+    address: "月季街324号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.603147",
+    longitude: "104.145839",
+    name: "创意山小广场",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa96",
+    address: "芙蓉西路685号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.607746",
+    longitude: "104.142410",
+    name: "绿地三期大门旁",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa97",
+    address: "成都市锦江区芙蓉西路412号1楼",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.607248",
+    longitude: "104.144429",
+    name: "德仁堂小广场",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa98",
+    address: "枫树街与樱花街交界处",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.607709",
+    longitude: "104.146517",
+    name: "樱花街小公园",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa99",
+    address: "百日红中路508号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.600398",
+    longitude: "104.147743",
+    name: "泉源堂智慧药房（百日红中路店）",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa9a",
+    address: "伊藤广场门口（地铁2号线洪河站A1口对面）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.605182",
+    longitude: "104.151410",
+    name: "锦江区11号伊藤广场点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa9b",
+    address: "椿树街684号附214号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.600380",
+    longitude: "104.153697",
+    name: "楷祥口腔门诊部",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa9c",
+    address: "紫檀街230号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.584379",
+    longitude: "104.149022",
+    name: "海王星辰",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa9d",
+    address: "锦江区锦水街31号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.556509",
+    longitude: "104.110872",
+    name: "锦江区42号福安堂诊所核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa9e",
+    address: "锦江区银木街100号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.593547",
+    longitude: "104.150395",
+    name: "锦江区41号仁心仁爱诊所核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fa9f",
+    address: "锦江区银杏大道419号423号星雅俊园",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.590383",
+    longitude: "104.154200",
+    name: "锦江区43号芳宇牙博口腔门诊部核酸检测点",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa0",
+    address: "丹桂街249号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.590008",
+    longitude: "104.169438",
+    name: "锦江世医堂诊所",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa1",
+    address: "三圣街道成龙大道与春娟路交叉口（水景广场）",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.582833",
+    longitude: "104.157981",
+    name: "锦江区5号三圣花乡水景广场点",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa2",
+    address: "锦江区成龙大道1416号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.585277",
+    longitude: "104.147782",
+    name: "四川大学华西第二医院锦江院区",
+    status: "正常",
+    time: "24小时"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa3",
+    address: "万福社区一组339号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.570202",
+    longitude: "104.153064",
+    name: "万福花市点位",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa4",
+    address: "琉新路301号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.571071",
+    longitude: "104.113986",
+    name: "天际线房车营地",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa5",
+    address: "锦江区锦江大道877号邻里中心综合体",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.615772",
+    longitude: "104.092482",
+    name: "三圣社区卫生服务中心",
+    status: "正常",
+    time: "8：30-11：30 14：00-17：00 18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa6",
+    address: "幸福联合5组319号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.978596",
+    longitude: "103.645284",
+    name: "幸福社区警务室",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa7",
+    address: "雨树巷28号",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.591017",
+    longitude: "104.145619",
+    name: "华熙528综合体圣诞树",
+    status: "正常",
+    time: "8:00-11:00 16:00-20:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa8",
+    address: "锦官驿派出所",
+    area: "锦江区",
+    enable: "启用",
+    latitude: "30.649763",
+    longitude: "104.081238",
+    name: "锦官驿派出所",
+    status: "正常",
+    time: "每天09:00-12:00,14:00-18:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faa9",
+    address: "成都市高新区蓝天路58号附1号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.627350",
+    longitude: "104.054564",
+    name: "成都高新华南医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faaa",
+    address: "二环路南三段25号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.622703",
+    longitude: "104.052873",
+    name: "华美紫馨医学美容医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faab",
+    address: "二环路南三段15号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.620720",
+    longitude: "104.057030",
+    name: "娇点医学美容医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faac",
+    address: "玉林北路2号附1号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.631998",
+    longitude: "104.058243",
+    name: "华厦眼科",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faad",
+    address: "成都高新区大家医生诊所，泰和二街157号（芳草小学斜对面）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.630250",
+    longitude: "104.055250",
+    name: "大家医生门诊部",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faae",
+    address: "成都高新区泰和二街与城通路交叉口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.600330",
+    longitude: "104.057658",
+    name: "城通路“轻松驿站”",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faaf",
+    address: "成都高新区神仙树北路13号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.620015",
+    longitude: "104.050170",
+    name: "成都高新普康医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab0",
+    address: "紫荆南路52号附8号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.612279",
+    longitude: "104.050835",
+    name: "惠正口腔",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab1",
+    address: "天仁路246号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.601771",
+    longitude: "104.072385",
+    name: "成都高新中清博澳医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab2",
+    address: "高新区天仁路与天和西二街交叉口“朱家沟桥旁”",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.602042",
+    longitude: "104.071036",
+    name: "天和西二街“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab3",
+    address: "天府五街200号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.538801",
+    longitude: "104.061980",
+    name: "菁蓉汇“轻松驿站”",
+    status: "正常",
+    time: "与企业协商"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab4",
+    address: "成都市高新区天府三街219号B座F104、F202、F311号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.546087",
+    longitude: "104.061262",
+    name: "成都企鹅综合门诊部",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab5",
+    address: "桂溪街道天府五街200号菁蓉汇附近",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.538801",
+    longitude: "104.061980",
+    name: "高新区吉泰路天府五街口采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab6",
+    address: "成都高新区天府大道与天府三街交叉口（天府三街地铁A口旁）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.546486",
+    longitude: "104.044523",
+    name: "天府三街“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab7",
+    address: "成都高新区天府大道与天府五街交叉口（天府五街地铁B口旁）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.539069",
+    longitude: "104.058946",
+    name: "天府五街“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab8",
+    address: "高新区天府四街153号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.541917",
+    longitude: "104.065294",
+    name: "四川眼科医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fab9",
+    address: "天府四街488号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.542545",
+    longitude: "104.059625",
+    name: "招商银行金融后台服务中心“轻松驿站”",
+    status: "正常",
+    time: "与企业协商"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faba",
+    address: "吉泰路与天府四街交汇处活力公园内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.542276",
+    longitude: "104.063185",
+    name: "微医活力公园采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fabb",
+    address: "桂溪街道锦云东三巷金融麦田上海交易所对面",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.581007",
+    longitude: "104.076713",
+    name: "高新区交子公园采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fabc",
+    address: "天府大道北段999号2栋",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.586712",
+    longitude: "104.068816",
+    name: "成都高新米兰柏羽医学美容医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fabd",
+    address: "金融城名都路166号1栋1层1号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.578208",
+    longitude: "104.072244",
+    name: "成都新丽美医疗美容医院",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fabe",
+    address: "科华南路与锦云东三路交叉口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.671206",
+    longitude: "103.967956",
+    name: "交子公园“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fabf",
+    address: "成都高新区锦城大道与名都路交叉口（心岛地铁站旁）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.575753",
+    longitude: "104.071418",
+    name: "名都路“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac0",
+    address: "成都高新区科华南路与锦言街交叉口（交子公园东侧河边）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.582370",
+    longitude: "104.068900",
+    name: "科华南路“轻松驿站”",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac1",
+    address: "环岛路1200号（复地今日岛西，水秀附近）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.848245",
+    longitude: "104.432338",
+    name: "复地金融岛“轻松驿站”",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac2",
+    address: "成都高新区天府四街1401号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.543003",
+    longitude: "104.048242",
+    name: "成都高新区锦欣艾嘉综合门诊部",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac3",
+    address: "益州大道中段1800号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.538973",
+    longitude: "104.055718",
+    name: "天府软件园G1区采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac4",
+    address: "益州大道中段1800号（天府软件园G南区中庭）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.538273",
+    longitude: "104.056632",
+    name: "天府软件园G6区“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac5",
+    address: "成都高新区大源北中街16号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.557733",
+    longitude: "104.034959",
+    name: "成都高新区海尔森医院",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac6",
+    address: "盛安街889号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.558620",
+    longitude: "104.037585",
+    name: "高新区教育发展中心采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac7",
+    address: "康华路999号11栋",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.548322",
+    longitude: "104.034086",
+    name: "成都高新获安堂康华中医诊所",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac8",
+    address: "成都市火车南站站前广场西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.696103",
+    longitude: "104.073052",
+    name: "高新区火车南站采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fac9",
+    address: "三瓦窑街314号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.604999",
+    longitude: "104.082573",
+    name: "高新区三瓦窑社区居委会采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faca",
+    address: "桂溪西街60号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.601451",
+    longitude: "104.079172",
+    name: "成都圣贝牙科医院",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004facb",
+    address: "桂溪街道世纪南路洛克公园大门口附近",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.601793",
+    longitude: "104.075253",
+    name: "高新区桂龙公园采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004facc",
+    address: "桂溪公园东区（会展门口）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.609142",
+    longitude: "104.078171",
+    name: "高新区会展中心采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004facd",
+    address: "天华二路219号（天府软件园C区下沉广场）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.539962",
+    longitude: "104.071513",
+    name: "天府软件园C区“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004face",
+    address: "成都高新区世纪城路1129号天府软件园A区6栋-7栋中庭",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.549946",
+    longitude: "104.071417",
+    name: "天府软件园A区“轻松驿站”",
+    status: "正常",
+    time: "与企业协商"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004facf",
+    address: "成都高新区天府大道中段（世纪城F口））",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.556128",
+    longitude: "104.071362",
+    name: "世纪城“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad0",
+    address: "地铁1号线金融城站B出口旁",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.582306",
+    longitude: "104.062883",
+    name: "高新区华商金融中心采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad1",
+    address: "天府大道北段1480号中国进出口银行楼下（临近道路）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.575321",
+    longitude: "104.063395",
+    name: "高新区拉德芳斯广场采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad2",
+    address: "孵化园地铁口A口出口前五十米",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.573015",
+    longitude: "104.060522",
+    name: "高新区奥克斯广场采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad3",
+    address: "18号线孵化园站H口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.573710",
+    longitude: "104.063923",
+    name: "市政府旁（18号线孵化园站H口）采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad4",
+    address: "桂溪街道天府大道北段1700号环球中心s1门前广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.568751",
+    longitude: "104.063392",
+    name: "高新区环球中心西广场采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad5",
+    address: "交子大道与交子南二路交叉口路边",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.582501",
+    longitude: "104.062276",
+    name: "高新区华商金融中心2号采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad6",
+    address: "桂溪街道天府大道北段1700号环球中心E5旁（工商银行对面）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.570037",
+    longitude: "104.064418",
+    name: "高新区环球中心东广场采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad7",
+    address: "天府大道北段1480号拉德方斯东楼后",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.574703",
+    longitude: "104.064445",
+    name: "高新区拉德方斯广场2号采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad8",
+    address: "天府大道与锦城大道交叉口（泰达时代中心绵阳银行外侧）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.575417",
+    longitude: "104.048879",
+    name: "孵化园“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fad9",
+    address: "成都高新区交子大道与交子北一路交叉口（金融城地铁站B口）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.582579",
+    longitude: "104.064147",
+    name: "金融城“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fada",
+    address: "武侯区天顺路66号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.590032",
+    longitude: "104.071584",
+    name: "天府名居“轻松驿站”",
+    status: "正常",
+    time: "13:00-17:00、18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fadb",
+    address: "成都高新区天晖路与天晖中街交叉口（高新地铁C口旁）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.594370",
+    longitude: "104.063832",
+    name: "高新“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00、13:00-17:00、18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fadc",
+    address: "成都高新区益州大道与南三环路交叉口（融城理想外侧）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.596366",
+    longitude: "104.061838",
+    name: "融城理想“轻松驿站”",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fadd",
+    address: "成都市武侯区吉瑞二路188号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.557506",
+    longitude: "104.062768",
+    name: "高新创合中心“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fade",
+    address: "桂溪街道天府大道中段688号上海银行门口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.547214",
+    longitude: "104.068037",
+    name: "高新区大源国际广场采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fadf",
+    address: "桂溪街道天府大道中段688号上海银行左侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.547220",
+    longitude: "104.068016",
+    name: "高新区大源国际广场2号采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae0",
+    address: "桂溪街道吉庆路288号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.554242",
+    longitude: "104.058972",
+    name: "高新区月牙湖采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae1",
+    address: "高新区政务服务中心东南侧（天府二街吉庆一路口）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.592087",
+    longitude: "104.065609",
+    name: "高新区南区政务中心采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae2",
+    address: "吉庆一路388号香月湖小区大门右侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.555244",
+    longitude: "104.059382",
+    name: "高新区月牙湖2号采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae3",
+    address: "天泰路135号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.591939",
+    longitude: "104.070356",
+    name: "四川投资大厦采样点",
+    status: "正常",
+    time: "13:00-17:00、18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae4",
+    address: "成都高新区益州大道与天府一街交叉口（（益州大道公交站台旁）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.560279",
+    longitude: "104.056638",
+    name: "两江国际“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae5",
+    address: "成都高新区天府大道中段与天府一街交叉口（汇尚公园东区）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.560354",
+    longitude: "104.068496",
+    name: "汇尚公园东区“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae6",
+    address: "成都高新区吉庆四路（汇尚公园西区）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.558460",
+    longitude: "104.066872",
+    name: "汇尚公园西区“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae7",
+    address: "成都高新区吉庆三路公交站旁（小游园内）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.552953",
+    longitude: "104.062538",
+    name: "吉庆三路“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae8",
+    address: "成都高新区吉庆一路与天府二街交叉口（缤纷游园内）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.551357",
+    longitude: "104.058759",
+    name: "吉庆一路“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fae9",
+    address: "高新西区合作街道百草路与迪康大道交叉口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.746406",
+    longitude: "103.961401",
+    name: "百草路与迪康大道交叉口采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faea",
+    address: "高新区西区政务中心东侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.632266",
+    longitude: "103.974571",
+    name: "高新区西区政务中心采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faeb",
+    address: "成都高新区西区西源大道2006号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.754949",
+    longitude: "103.931851",
+    name: "电子科技大学医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faec",
+    address: "高新西区西源大道1号附9号1栋",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.722693",
+    longitude: "103.957738",
+    name: "成都高新锦欣老年病医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faed",
+    address: "成都高新区万象北路18号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.590176",
+    longitude: "104.052242",
+    name: "成都市第一人民医院（黄码）",
+    status: "正常",
+    time: "00:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faee",
+    address: "成都高新区和盛东街与成汉中路交叉口（新街里）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.591334",
+    longitude: "104.054369",
+    name: "新街里“轻松驿站”",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faef",
+    address: "府城大道西段与万象南路交叉路口西南60米",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.588413",
+    longitude: "104.050383",
+    name: "市一医院万象南路西侧广场采样点",
+    status: "正常",
+    time: "00:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf0",
+    address: "成都高新区交子大道地铁站C1出口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.669410",
+    longitude: "104.027517",
+    name: "交子大道“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf1",
+    address: "石羊街道地铁5号线交子大道地铁站B口附近",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.669410",
+    longitude: "104.027517",
+    name: "高新区交子大道采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf2",
+    address: "石羊街道锦城大道1015号红旗连锁超市门口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.574891",
+    longitude: "104.051872",
+    name: "高新区锦城大道不动产登记中心采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf3",
+    address: "成都高新区交子大道中海国际F座外侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.580484",
+    longitude: "104.059348",
+    name: "中海国际“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf4",
+    address: "新悦路85号(庆安地铁站C2口东步行200米)",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.596887",
+    longitude: "104.034251",
+    name: "加州广场采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf5",
+    address: "成都高新区新雅中街2号5栋1层2号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.604350",
+    longitude: "104.030520",
+    name: "成都庆安医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf6",
+    address: "益新大道与锦城大道交叉口（三元地铁F口）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.581254",
+    longitude: "104.026446",
+    name: "三元社区“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf7",
+    address: "益园三路与益园路交叉口（雪花啤酒厂）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.585451",
+    longitude: "104.029438",
+    name: "益园三路“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf8",
+    address: "天府二街866号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.551930",
+    longitude: "104.050114",
+    name: "凤凰城2期“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faf9",
+    address: "石羊街道天府一街剑南大道口（水街对面）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.560310",
+    longitude: "104.049912",
+    name: "高新区基督教光音堂采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fafa",
+    address: "盛兴街55号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.561423",
+    longitude: "104.051137",
+    name: "盛兴街“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00、13:00-17:00、18：00-21：00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fafb",
+    address: "大源中央公园（地铁5号线大源站出口）D口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.548864",
+    longitude: "104.049324",
+    name: "高新区大源中央公园采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fafc",
+    address: "大源中央公园东门附近（天府三街盛华南路口）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.548864",
+    longitude: "104.049324",
+    name: "高新区大源中央公园东侧采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fafd",
+    address: "石羊街大源中央公园西4门附近（剑南大道中段辅路旁）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.548864",
+    longitude: "104.049324",
+    name: "高新区大源中央公园西侧采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fafe",
+    address: "盛兴街518号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.567778",
+    longitude: "104.040743",
+    name: "天府长岛“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004faff",
+    address: "石羊街道石桥路58号石羊客运站内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.585485",
+    longitude: "104.032153",
+    name: "石羊客运站采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb00",
+    address: "成都高新区西区尚锦路253号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.781248",
+    longitude: "103.930181",
+    name: "成都上锦南府医院（黄码）",
+    status: "正常",
+    time: "00:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb01",
+    address: "西园街道科新路8号综合保税区B区2号楼附近",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.776337",
+    longitude: "103.923693",
+    name: "高新区综保区B区采样点",
+    status: "正常",
+    time: "8:00-12:00  13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb02",
+    address: "高新西区西园街道天源路与合作路交叉口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.772359",
+    longitude: "103.903662",
+    name: "天源路与合作路交叉口采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb03",
+    address: "高新西区西园街道康强一路与蜀新大道交叉口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.768041",
+    longitude: "103.855782",
+    name: "康强一路与蜀新大道交叉口采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb04",
+    address: "成都高新区西区天欣路101号采样点",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.754949",
+    longitude: "103.931851",
+    name: "成都华银医学检验所",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb05",
+    address: "成都高新区高朋东路1号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.621931",
+    longitude: "104.041765",
+    name: "成都高新区博力医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb06",
+    address: "成都高新区高朋大道5号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.625612",
+    longitude: "104.040726",
+    name: "成都新基因格医学检验所",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb07",
+    address: "二环路南四段9号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.626198",
+    longitude: "104.043168",
+    name: "成都康伯尔医院医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb08",
+    address: "创业路28号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.617195",
+    longitude: "104.040642",
+    name: "四川西婵泛亚整形美容医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb09",
+    address: "成都市高新区二环路南4段11号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.597183",
+    longitude: "104.056929",
+    name: "全景（成都）医学影像诊断中心",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb0a",
+    address: "成都高新区九兴大道与高朋大道交叉口（九兴大道地铁J口旁）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.621888",
+    longitude: "104.037560",
+    name: "九兴大道“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb0b",
+    address: "成都高新区肖家河文化家园广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.606087",
+    longitude: "104.044880",
+    name: "成都千麦医学检验所有限公司",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb0c",
+    address: "成都高新区新乐路与新乐北巷交汇口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.604601",
+    longitude: "104.042099",
+    name: "新乐北巷“轻松驿站”",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb0d",
+    address: "成都高新区新乐南街111号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.603722",
+    longitude: "104.040489",
+    name: "成都高新区同爱医院",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb0e",
+    address: "成都高新区肖家河新盛社区科技广场新盛驿站旁",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.611068",
+    longitude: "104.037511",
+    name: "成都高新区知几未来医学检验实验室",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb0f",
+    address: "成都高新区科韵路（汤乐源东门）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.609785",
+    longitude: "104.026735",
+    name: "成都核子华曦医学检验实验室有限公司",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb10",
+    address: "成都高新区肖家河沿街6号远雄售楼处",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.628493",
+    longitude: "104.045614",
+    name: "中核中同蓝博（成都）医学检验有限公司",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb11",
+    address: "南新逸苑旁雅和南四路和悦和二街交汇处",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.504794",
+    longitude: "104.079057",
+    name: "高新区南新逸苑采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb12",
+    address: "成都高新区东寺街南新逸园东门",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.597183",
+    longitude: "104.056929",
+    name: "南新逸苑“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb13",
+    address: "成都高新区中和街道上街44号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.756929",
+    longitude: "103.967900",
+    name: "成都善道医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb14",
+    address: "中德C区观东二街和祥明一路交界处",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.528981",
+    longitude: "104.105953",
+    name: "高新区中德CD区大门外小广场采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb15",
+    address: "高新区天府大道南段与新川路交叉路口（四河地铁站D口）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.516133",
+    longitude: "104.070125",
+    name: "新川路“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb16",
+    address: "中和街道会龙路69号长城馨苑门口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.524279",
+    longitude: "104.073953",
+    name: "高新区长城馨苑采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb17",
+    address: "华府大道地铁站C1口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.525816",
+    longitude: "104.069590",
+    name: "高新区华府大道采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb18",
+    address: "成都市高新区雅和南二路270号百合口腔",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.638565",
+    longitude: "104.057141",
+    name: "百合口腔方舱",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb19",
+    address: "新通北二路与崇和三街十字路口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.527335",
+    longitude: "104.100509",
+    name: "新通北二路“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb1a",
+    address: "成都高新区新川路生物医药创新孵化园西门",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.517926",
+    longitude: "104.106322",
+    name: "成都珀金埃尔默医学检验实验室",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb1b",
+    address: "中和街道和乐一街与新程北三路交叉口（保利和光逸景旁）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.506944",
+    longitude: "104.093819",
+    name: "保利和光逸景采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb1c",
+    address: "雅和北三路102号华西二院儿童保健门诊旁",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.668582",
+    longitude: "104.075650",
+    name: "高新区博雅城市广场采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb1d",
+    address: "广都地铁站C口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.509225",
+    longitude: "104.074405",
+    name: "高新区广都地铁站C口采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb1e",
+    address: "成都高新区中和街道仁和路713号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.552786",
+    longitude: "104.097631",
+    name: "四川现代医院高新区院区",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb1f",
+    address: "成都高新区吉龙路高新体育中心内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.406186",
+    longitude: "104.548580",
+    name: "高新体育中心1号“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb20",
+    address: "成都高新区中和三街199号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.544760",
+    longitude: "104.102020",
+    name: "高新区龙翔医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb21",
+    address: "成都高新区吉龙路与康和路交叉口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.540082",
+    longitude: "104.090106",
+    name: "高新体育中心2号“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb22",
+    address: "成都高新区天府大道南段（华阳地铁站C1出口旁）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.504376",
+    longitude: "104.070450",
+    name: "华阳地铁站“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb23",
+    address: "东寺街与东寺北三路交汇口（五根松社区旁边）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.668582",
+    longitude: "104.075650",
+    name: "东寺街“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb24",
+    address: "吉龙二街125号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.535887",
+    longitude: "104.088020",
+    name: "高新区领馆国际采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb25",
+    address: "高新区观东三街222、224、226号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.526222",
+    longitude: "104.085287",
+    name: "成都高新福慧堂诊所",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb26",
+    address: "成都高新区中柏路189号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.555815",
+    longitude: "104.093977",
+    name: "成都高新区中和中医医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb27",
+    address: "高新区中和街道公济桥路65号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.561635",
+    longitude: "104.089100",
+    name: "成都高新区好医生第一医院",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb28",
+    address: "中和镇中和大道二段2号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.548240",
+    longitude: "104.087252",
+    name: "天益国际“轻松驿站”",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb29",
+    address: "高新区中和街道应龙社区党群服务中心大门口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.543666",
+    longitude: "104.113280",
+    name: "应龙社区党群服务中心采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb2a",
+    address: "绕城锦城湖站B口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.571473",
+    longitude: "104.048185",
+    name: "绕城高速锦城湖站B出口采样点",
+    status: "正常",
+    time: "00:00-24:00;"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb2b",
+    address: "绕城锦城湖站D口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.571473",
+    longitude: "104.048185",
+    name: "绕城高速锦城湖站D出口采样点",
+    status: "正常",
+    time: "00:00-24:00;"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb2c",
+    address: "绕城成雅站出口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.613244",
+    longitude: "104.141957",
+    name: "绕城高速成雅站出口采样点",
+    status: "正常",
+    time: "00:00-24:00;"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb2d",
+    address: "绕城天府出口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.700028",
+    longitude: "103.862047",
+    name: "绕城高速天府站出口采样点",
+    status: "正常",
+    time: "00:00-24:00;"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb2e",
+    address: "绕城高速B出口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.613244",
+    longitude: "104.141957",
+    name: "绕城高速成灌站B出口采样点",
+    status: "正常",
+    time: "00:00-24:00;"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb2f",
+    address: "绕城高速成灌站D出口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.877660",
+    longitude: "103.931069",
+    name: "绕城高速犀浦立交D出口采样点",
+    status: "正常",
+    time: "00:00-24:00;"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb30",
+    address: "成灌高速成都站出口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.698331",
+    longitude: "104.073500",
+    name: "成灌高速成都站出口采样点",
+    status: "正常",
+    time: "00:00-24:00;"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb31",
+    address: "火车南站地铁D出口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.364448",
+    longitude: "104.524009",
+    name: "火车南站“轻松驿站”",
+    status: "正常",
+    time: "8:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb32",
+    address: "成都高新区中和街道安和路100号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.562608",
+    longitude: "104.104603",
+    name: "盛世嘉苑临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb33",
+    address: "观东二街355号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.529194",
+    longitude: "104.083664",
+    name: "新怡花园B区南门临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb34",
+    address: "成都高新区中和街道锦韵路533号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.536058",
+    longitude: "104.080963",
+    name: "嘉年华青年城临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb35",
+    address: "成都高新区中和街道油榨房街",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.560017",
+    longitude: "104.085405",
+    name: "南桥春天广场临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb36",
+    address: "成都高新区中和街道雅和南一路161号广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.507180",
+    longitude: "104.072532",
+    name: "司南名著小区西门外广场临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb37",
+    address: "成都高新区中和街道朝阳路222号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.558306",
+    longitude: "104.094408",
+    name: "朝阳路中段临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb38",
+    address: "应龙路1199号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.535174",
+    longitude: "104.094920",
+    name: "新怡华庭东区临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb39",
+    address: "成都高新西区尚雅路9正北方向70米",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.774762",
+    longitude: "103.932470",
+    name: "毛主席视察红光纪念馆检测点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb3a",
+    address: "尚文路爱茵堡幼儿园临时采样点",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.778398",
+    longitude: "103.928966",
+    name: "上锦颐园便民检测点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb3b",
+    address: "成都市高新西区檬梓环街384号旁",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.802176",
+    longitude: "103.921287",
+    name: "檬柏廉政广场检测点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb3c",
+    address: "肖家河正街45号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.629971",
+    longitude: "104.041467",
+    name: "正街步行街临时采样点（南）",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb3d",
+    address: "肖家河正街1号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.632616",
+    longitude: "104.043201",
+    name: "正街步行街临时采样点（北）",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb3e",
+    address: "科园南路88号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.615482",
+    longitude: "104.030748",
+    name: "生命科技园临时采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb3f",
+    address: "九兴大道14号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.623714",
+    longitude: "104.036392",
+    name: "凯乐国际临时采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb40",
+    address: "天府二街866号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.551930",
+    longitude: "104.050114",
+    name: "源动力潮盛华采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb41",
+    address: "昆和路88号1栋附102号与附103号之间",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.589254",
+    longitude: "104.044090",
+    name: "府城菜市商业街临时核酸采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb42",
+    address: "石羊场路555号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.584237",
+    longitude: "104.042345",
+    name: "大榕湾商业街临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb43",
+    address: "交子大道300号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.583217",
+    longitude: "104.057523",
+    name: "悠方商场临时采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb44",
+    address: "成汉中路81号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.596892",
+    longitude: "104.054623",
+    name: "山河玖璋售楼部南广场临时采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb45",
+    address: "新园大道与新园南二路交叉路口",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.593569",
+    longitude: "104.039822",
+    name: "新成国际临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb46",
+    address: "新悦路85号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.598249",
+    longitude: "104.037048",
+    name: "加州广场临时采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb47",
+    address: "天皓街国学公园",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.744349",
+    longitude: "103.920588",
+    name: "清江社区成都合院临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb48",
+    address: "西源大道1504号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.750929",
+    longitude: "103.914685",
+    name: "天骄西路社区党群服务中心临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb49",
+    address: "合作路188号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.757262",
+    longitude: "103.922329",
+    name: "阳光保险集团停车场临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb4a",
+    address: "百叶路1号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.729497",
+    longitude: "103.968666",
+    name: "电子科技大学成都学院百叶广场临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb4b",
+    address: "蓝岸A、B区之间水景区",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.516697",
+    longitude: "104.049035",
+    name: "蓝岸临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb4c",
+    address: "百草路与天河路交汇处（有轨电车天河路晨风站）",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.737091",
+    longitude: "103.972816",
+    name: "晨风社区志愿者驿站临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb4d",
+    address: "天府四街1957号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.542139",
+    longitude: "104.032730",
+    name: "北辰香鹭公园旁临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb4e",
+    address: "高新西区西园街道西源大道1899号露天停车场1",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.764163",
+    longitude: "103.895101",
+    name: "华为研究所1号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb4f",
+    address: "高新西区西园街道西源大道1899号露天停车场2",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.764163",
+    longitude: "103.895101",
+    name: "华为研究所2号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb50",
+    address: "高新西区西园街道西源大道1899号露天停车场3",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.764163",
+    longitude: "103.895101",
+    name: "华为研究所3号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb51",
+    address: "高新西区西园街道尚丰路101号生活区篮球场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.783995",
+    longitude: "103.920955",
+    name: "奇宏电子公司",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb52",
+    address: "高新西区西园街道合作路1188号京东方B2门前",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.774605",
+    longitude: "103.902484",
+    name: "京东方1号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb53",
+    address: "高新西区西园街道合作路1188号京东方模组大楼门前",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.775624",
+    longitude: "103.899637",
+    name: "京东方2号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb54",
+    address: "高新西区西园街道合作路1188号京东方4号门旁",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.774605",
+    longitude: "103.902484",
+    name: "京东方3号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb55",
+    address: "高新西区西园街道科新路8号莫仕厂区内广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.773131",
+    longitude: "103.922309",
+    name: "莫仕连接器公司",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb56",
+    address: "高新西区西园街道科新路8号德州仪器公司北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.774557",
+    longitude: "103.917042",
+    name: "高新综保区B区１号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb57",
+    address: "高新西区西园街道科新路８号标准厂房南侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.773131",
+    longitude: "103.922309",
+    name: "高新综保区B区２号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb58",
+    address: "高新西区西园街道科新路8号宇芯厂区内广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.773131",
+    longitude: "103.922309",
+    name: "宇芯公司",
+    status: "正常",
+    time: "15:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb59",
+    address: "高新西区西园街道科新路8号英特尔公司西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.773131",
+    longitude: "103.922309",
+    name: "高新综保区B区３号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb5a",
+    address: "高新西区西园街道科新路8号先进功率公司南侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.773131",
+    longitude: "103.922309",
+    name: "高新综保区B区４号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb5b",
+    address: "高新西区西园街道双柏路８号海关查验仓库外东侧角",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.792890",
+    longitude: "103.914799",
+    name: "综保区A区",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb5c",
+    address: "高新西区科新路8号A区A01栋北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.638414",
+    longitude: "104.041102",
+    name: "富士康A区1号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb5d",
+    address: "高新西区科新路8号A区A04栋北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.637348",
+    longitude: "104.041200",
+    name: "富士康A区2号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb5e",
+    address: "高新西区科新路8号A区A07栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.637668",
+    longitude: "104.040862",
+    name: "富士康A区3号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb5f",
+    address: "高新区合作路888号B区B21栋北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康B区1号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb60",
+    address: "高新区合作路888号B区B22栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康B区2号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb61",
+    address: "高新区合作路888号B区B23栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康B区3号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb62",
+    address: "高新区合作路888号B区B23栋北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康B区4号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb63",
+    address: "高新区合作路888号B区B25栋北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康B区5号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb64",
+    address: "高新区合作路888号B区B27栋广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康B区6号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb65",
+    address: "高新区合作路888号C区C21栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康C区1号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb66",
+    address: "高新区合作路888号C区C22栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康C区2号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb67",
+    address: "高新区合作路888号C区C23栋北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康C区3号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb68",
+    address: "高新区合作路888号C区C24栋北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康C区4号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb69",
+    address: "高新区合作路888号C区C25栋东侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康C区5号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb6a",
+    address: "高新区合作路888号C区C25栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康C区6号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb6b",
+    address: "高新区合作路888号C区C27栋广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康C区7号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb6c",
+    address: "高新区合作路888号D区D21栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康D区1号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb6d",
+    address: "高新区合作路888号D区D22栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康D区2号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb6e",
+    address: "高新区合作路888号D区D23栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康D区3号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb6f",
+    address: "高新区合作路888号D区D25栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康D区4号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb70",
+    address: "高新区合作路888号D区D26栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康D区5号点",
+    status: "正常",
+    time: "15:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb71",
+    address: "高新区合作路888号D区D33栋北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.763145",
+    longitude: "103.916900",
+    name: "富士康D区6号点",
+    status: "正常",
+    time: "15:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb72",
+    address: "高新区天盛路666号M区M1栋北侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.767276",
+    longitude: "103.907962",
+    name: "富士康M区1号点",
+    status: "正常",
+    time: "15:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb73",
+    address: "高新区天盛路666号M区M2栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.767276",
+    longitude: "103.907962",
+    name: "富士康M区2号点",
+    status: "正常",
+    time: "15:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb74",
+    address: "高新区天盛路666号M区M9栋西侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.767276",
+    longitude: "103.907962",
+    name: "富士康M区3号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb75",
+    address: "高新区天盛路666号M区M10栋东侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.767276",
+    longitude: "103.907962",
+    name: "富士康M区4号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb76",
+    address: "高新区天映路N区N3栋东侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.513132",
+    longitude: "104.074297",
+    name: "富士康N区1号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb77",
+    address: "高新区天映路N区N5栋东侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.513132",
+    longitude: "104.074297",
+    name: "富士康N区2号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb78",
+    address: "高新区天映路N区N7栋东侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.513132",
+    longitude: "104.074297",
+    name: "富士康N区3号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb79",
+    address: "高新区天映路N区N8栋东侧",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.513132",
+    longitude: "104.074297",
+    name: "富士康N区4号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb7a",
+    address: "高新西区尚雅路88号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.775524",
+    longitude: "103.934141",
+    name: "高新青年公寓1号苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb7b",
+    address: "高新西区合信路333号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.754107",
+    longitude: "103.914216",
+    name: "高新青年公寓2号苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb7c",
+    address: "成都市高新西区合信路533号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.756148",
+    longitude: "103.910491",
+    name: "高新青年公寓3号苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb7d",
+    address: "成都市高新西区合信路633号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.758460",
+    longitude: "103.907676",
+    name: "高新青年公寓4号苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb7e",
+    address: "成都市高新西区天彩路38号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.756664",
+    longitude: "103.910161",
+    name: "高新青年公寓10号苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb7f",
+    address: "成都市高新西区合信路733号7栋广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.760780",
+    longitude: "103.905499",
+    name: "高新青年公寓5号苑1号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb80",
+    address: "成都市高新西区合信路733号8栋广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.760780",
+    longitude: "103.905499",
+    name: "高新青年公寓5号苑2号点",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb81",
+    address: "成都市高新西区合信路811号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.761775",
+    longitude: "103.905507",
+    name: "高新青年公寓6号苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb82",
+    address: "成都市高新西区天盛路218号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.762796",
+    longitude: "103.900321",
+    name: "高新青年公寓7号苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb83",
+    address: "成都市郫都区德源镇文明街311号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.768573",
+    longitude: "103.854361",
+    name: "德源菁蓉公寓",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb84",
+    address: "成都市郫都区德源镇稻香路38号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.775637",
+    longitude: "103.859024",
+    name: "德源富华苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb85",
+    address: "成都市郫都区德源镇红旗大道南段427号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.771472",
+    longitude: "103.853540",
+    name: "德源雅竹苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb86",
+    address: "成都市郫都区德源镇稻香路199号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.777808",
+    longitude: "103.855272",
+    name: "德源锦尚华庭",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb87",
+    address: "成都市郫都区德源镇禹庙上街339号内",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.776525",
+    longitude: "103.852042",
+    name: "德源西城华苑",
+    status: "正常",
+    time: "不对外"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb88",
+    address: "蓓蕾中巷9号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.626235",
+    longitude: "104.057163",
+    name: "芳草蓓蕾社区卫生服务站",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb89",
+    address: "神仙树综合文化广场",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.609786",
+    longitude: "104.047347",
+    name: "成都高新区芳草社区卫生服务中心（北区）",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb8a",
+    address: "成都高新区泰和二街366号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.600319",
+    longitude: "104.051972",
+    name: "成都高新区芳草社区卫生服务中心（南区）",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb8b",
+    address: "成都高新区昆华路919号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.554744",
+    longitude: "104.029655",
+    name: "成都高新区桂溪社区卫生服务中心",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb8c",
+    address: "天和路202号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.602150",
+    longitude: "104.074339",
+    name: "桂溪和平社区卫生服务站",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb8d",
+    address: "祥华路28号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.543287",
+    longitude: "104.030220",
+    name: "桂溪临江社区卫生服务站",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb8e",
+    address: "成都高新区天晖路36号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.596037",
+    longitude: "104.063485",
+    name: "成都高新区南新社区卫生服务中心",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb8f",
+    address: "高新区天长路79—81号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.593295",
+    longitude: "104.076031",
+    name: "成都高新区永安社区卫生服务中心",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb90",
+    address: "成都高新区合作街道清源环街171号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.741273",
+    longitude: "103.924547",
+    name: "成都高新区合作社区卫生服务中心",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb91",
+    address: "高新西区顺源街261、263、265、267号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.762816",
+    longitude: "103.994357",
+    name: "合作顺江社区卫生服务站",
+    status: "正常",
+    time: "8：00-12：00，15:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb92",
+    address: "成都高新区中海国际美墅街277号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.720669",
+    longitude: "103.971491",
+    name: "成都高新区中海国际社区卫生服务站",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb93",
+    address: "锦尚西二路333号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.578551",
+    longitude: "104.048464",
+    name: "成都高新区锦城社区卫生服务中心",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb94",
+    address: "新雅东街51号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.602210",
+    longitude: "104.029480",
+    name: "石羊庆安社区卫生服务站",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb95",
+    address: "成都高新区锦城大道1888号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.577927",
+    longitude: "104.036066",
+    name: "成都高新区石羊社区卫生服务中心",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb96",
+    address: "高新西区檬柏路222号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.797840",
+    longitude: "103.921641",
+    name: "西园滨河社区卫生服务站",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb97",
+    address: "成都高新区天彩路120号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.757000",
+    longitude: "103.910219",
+    name: "成都高新区西园社区卫生服务中心",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb98",
+    address: "成都高新区新乐路158号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.605750",
+    longitude: "104.040400",
+    name: "成都高新区新北社区卫生服务中心",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb99",
+    address: "高新区兴蓉街4号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.635582",
+    longitude: "104.046471",
+    name: "成都高新区肖家河社区卫生服务中心",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb9a",
+    address: "成都高新区中和大道三段56号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.549202",
+    longitude: "104.090280",
+    name: "成都高新区中和社区卫生服务中心（北区）",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb9b",
+    address: "应龙北二路1105号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.534606",
+    longitude: "104.092061",
+    name: "中和社区卫生服务中心（南区）",
+    status: "正常",
+    time: "8:00—12:00，15:00—18:00，19:00-24:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb9c",
+    address: "芳草巷1号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.627844",
+    longitude: "104.050833",
+    name: "芳草巷临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb9d",
+    address: "紫荆北路58号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.617597",
+    longitude: "104.051469",
+    name: "紫瑞苑临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb9e",
+    address: "紫杉路步行街",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.614142",
+    longitude: "104.049095",
+    name: "紫杉路步行街临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fb9f",
+    address: "紫荆西路23号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.619039",
+    longitude: "104.043861",
+    name: "中国电信（高新营业厅）临时采样点",
+    status: "正常",
+    time: "17:00-21:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fba0",
+    address: "紫荆东路55号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.614107",
+    longitude: "104.053407",
+    name: "紫竹广场临时采样点",
+    status: "正常",
+    time: "8:00-12:00,13:00-17:00"
+} ]);
+db.getCollection("chengdu").insert([ {
+    _id: "637e2e308f6024113004fba1",
+    address: "紫荆东路55号",
+    area: "高新区",
+    enable: "启用",
+    latitude: "30.614107",
+    longitude: "104.053407",
+    name: "芳草紫薇社区卫生服务站",
+    status: "正常",
+    time: "8：00-12：00，15:00-21:00"
+} ]);

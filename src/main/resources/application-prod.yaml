@@ -4,4 +4,4 @@ spring:
       database: test
       host: mongodb
       username: root
-      password: password      
+      password: example
