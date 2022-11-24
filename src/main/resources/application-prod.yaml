@@ -3,3 +3,5 @@ spring:
     mongodb:
       database: test
       host: mongodb
+      username: root
+      password: password      

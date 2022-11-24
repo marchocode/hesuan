@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <title>成都市常态化核酸检测点位</title>
+    <style>
+        #container {
+            margin: 0;
+            width: 100%;
+            height: 500px;
+        }
+    </style>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <h3>成都市常态化核酸检测点位</h3>
+    <h3>更新时间：2022-11-24</h3>
+    <div id="container"></div>
+    <p>数据来源：<a href="http://cd.bendibao.com/live/2022815/142253.shtm">健康成都官微</a></p>
+    <p>免责声明：本工具本着方便查看附近的核酸检测点而开发，提供实用的信息。地理位置可能出现偏差，若需前往还请再次打开地图确认！！</p>
+</body>
+
+<script src="https://webapi.amap.com/loader.js"></script>
+<script type="text/javascript">
+    AMapLoader.load({
+        "key": "2b04e9cd44c86bbdb094b20e4eda5cb4", // 申请好的Web端开发者Key，首次调用 load 时必填
+        "version": "2.0", // 指定要加载的 JSAPI 的版本，缺省时默认为 1.4.15
+        "plugins": ['AMap.Geolocation'], // 需要使用的的插件列表，如比例尺'AMap.Scale'等
+        "AMapUI": { // 是否加载 AMapUI，缺省不加载
+            "version": '1.1', // AMapUI 版本
+            "plugins": ['overlay/SimpleMarker'], // 需要加载的 AMapUI ui插件
+        },
+        "Loca": { // 是否加载 Loca， 缺省不加载
+            "version": '2.0' // Loca 版本
+        },
+    }).then((AMap) => {
+        var map = new AMap.Map('container', {
+            center: [104.032988, 30.478462]
+        });
+
+        // AMap.plugin('AMap.Geolocation', function() {
+        // 	var geolocation = new AMap.Geolocation({
+        // 		// 是否使用高精度定位，默认：true
+        // 		enableHighAccuracy: true,
+        // 		// 设置定位超时时间，默认：无穷大
+        // 		timeout: 10000,
+        // 		// 定位按钮的停靠位置的偏移量
+        // 		offset: [10, 20],
+        // 		//  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+        // 		zoomToAccuracy: true,
+        // 		//  定位按钮的排放位置,  RB表示右下
+        // 		position: 'RB'
+        // 	})
+        // 	map.addControl(geolocation);
+        // 	geolocation.getCurrentPosition(function(status, result) {
+        // 		if (status == 'complete') {
+        // 			onComplete(result)
+        // 		} else {
+        // 			onError(result)
+        // 		}
+        // 	});
+
+        // 	function onComplete(data) {
+        // 		console.log(data)
+        // 	}
+
+        // 	function onError(data) {
+        // 		alert("定位失败,请手动刷新")
+        // 	}
+        // })// AMap.plugin('AMap.Geolocation', function() {
+        // 	var geolocation = new AMap.Geolocation({
+        // 		// 是否使用高精度定位，默认：true
+        // 		enableHighAccuracy: true,
+        // 		// 设置定位超时时间，默认：无穷大
+        // 		timeout: 10000,
+        // 		// 定位按钮的停靠位置的偏移量
+        // 		offset: [10, 20],
+        // 		//  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+        // 		zoomToAccuracy: true,
+        // 		//  定位按钮的排放位置,  RB表示右下
+        // 		position: 'RB'
+        // 	})
+        // 	map.addControl(geolocation);
+        // 	geolocation.getCurrentPosition(function(status, result) {
+        // 		if (status == 'complete') {
+        // 			onComplete(result)
+        // 		} else {
+        // 			onError(result)
+        // 		}
+        // 	});
+
+        // 	function onComplete(data) {
+        // 		console.log(data)
+        // 	}
+
+        // 	function onError(data) {
+        // 		alert("定位失败,请手动刷新")
+        // 	}
+        // })
+        $.get("/api/postion").then(res => {
+
+            for (item of res) {
+
+                var label = {
+                    content: `${item.name}`
+                }
+                var marker = new AMap.Marker({
+                    position: new AMap.LngLat(item.longitude, item
+                        .latitude),
+                    title: `${item.name}`,
+                    label: label
+                });
+
+                map.add(marker);
+            }
+        })
+
+    }).catch((e) => {
+        console.error(e); //加载错误提示
+    });
+</script>
+
+</html>
