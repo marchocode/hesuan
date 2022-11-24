@@ -25,4 +25,5 @@ services:
       - 443:443
     volumes:
       - ./conf.d:/etc/nginx/conf.d
-      - ./html:/etc/nginx/html 
+      - ./html:/etc/nginx/html
+      - ./cert:/etc/nginx/cert

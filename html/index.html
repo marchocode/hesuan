@@ -36,69 +36,41 @@
             "version": '2.0' // Loca 版本
         },
     }).then((AMap) => {
+        
         var map = new AMap.Map('container', {
             center: [104.032988, 30.478462]
         });
 
-        // AMap.plugin('AMap.Geolocation', function() {
-        // 	var geolocation = new AMap.Geolocation({
-        // 		// 是否使用高精度定位，默认：true
-        // 		enableHighAccuracy: true,
-        // 		// 设置定位超时时间，默认：无穷大
-        // 		timeout: 10000,
-        // 		// 定位按钮的停靠位置的偏移量
-        // 		offset: [10, 20],
-        // 		//  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
-        // 		zoomToAccuracy: true,
-        // 		//  定位按钮的排放位置,  RB表示右下
-        // 		position: 'RB'
-        // 	})
-        // 	map.addControl(geolocation);
-        // 	geolocation.getCurrentPosition(function(status, result) {
-        // 		if (status == 'complete') {
-        // 			onComplete(result)
-        // 		} else {
-        // 			onError(result)
-        // 		}
-        // 	});
+        AMap.plugin('AMap.Geolocation', function () {
+            var geolocation = new AMap.Geolocation({
+                // 是否使用高精度定位，默认：true
+                enableHighAccuracy: true,
+                // 设置定位超时时间，默认：无穷大
+                timeout: 10000,
+                // 定位按钮的停靠位置的偏移量
+                offset: [10, 20],
+                //  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+                zoomToAccuracy: true,
+                //  定位按钮的排放位置,  RB表示右下
+                position: 'RB'
+            })
+            map.addControl(geolocation);
+            geolocation.getCurrentPosition(function (status, result) {
+                if (status == 'complete') {
+                    onComplete(result)
+                } else {
+                    onError(result)
+                }
+            });
 
-        // 	function onComplete(data) {
-        // 		console.log(data)
-        // 	}
+            function onComplete(data) {
+                console.log(data)
+            }
 
-        // 	function onError(data) {
-        // 		alert("定位失败,请手动刷新")
-        // 	}
-        // })// AMap.plugin('AMap.Geolocation', function() {
-        // 	var geolocation = new AMap.Geolocation({
-        // 		// 是否使用高精度定位，默认：true
-        // 		enableHighAccuracy: true,
-        // 		// 设置定位超时时间，默认：无穷大
-        // 		timeout: 10000,
-        // 		// 定位按钮的停靠位置的偏移量
-        // 		offset: [10, 20],
-        // 		//  定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
-        // 		zoomToAccuracy: true,
-        // 		//  定位按钮的排放位置,  RB表示右下
-        // 		position: 'RB'
-        // 	})
-        // 	map.addControl(geolocation);
-        // 	geolocation.getCurrentPosition(function(status, result) {
-        // 		if (status == 'complete') {
-        // 			onComplete(result)
-        // 		} else {
-        // 			onError(result)
-        // 		}
-        // 	});
-
-        // 	function onComplete(data) {
-        // 		console.log(data)
-        // 	}
-
-        // 	function onError(data) {
-        // 		alert("定位失败,请手动刷新")
-        // 	}
-        // })
+            function onError(data) {
+                alert("定位失败,请手动刷新")
+            }
+        })
         $.get("/api/postion").then(res => {
 
             for (item of res) {
